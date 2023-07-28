@@ -1,0 +1,3 @@
+[00:18:49] [INFO ] Starting recipe modification scripts...
+[00:18:49] [INFO ] Loaded script startup_scripts:script.js in 0.078 s
+[00:18:49] [INFO ] Loaded 1/1 KubeJS startup scripts in 0.188 s

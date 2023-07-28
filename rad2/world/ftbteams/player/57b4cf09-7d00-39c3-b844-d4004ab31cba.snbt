@@ -1,0 +1,18 @@
+{
+	id: "57b4cf09-7d00-39c3-b844-d4004ab31cba"
+	type: "player"
+	player_name: "PapelRasgado"
+	ranks: {
+		57b4cf09-7d00-39c3-b844-d4004ab31cba: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "PapelRasgado"
+		"ftbteams:color": "#8F59FF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: {
+		Money: 197L
+	}
+}
