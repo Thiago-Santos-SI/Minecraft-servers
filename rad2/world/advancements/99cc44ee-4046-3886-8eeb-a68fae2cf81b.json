@@ -815,6 +815,12 @@
     },
     "done": true
   },
+  "mysticalworld:aubergine": {
+    "criteria": {
+      "book": "2023-07-29 13:44:57 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
@@ -2201,6 +2207,12 @@
     },
     "done": true
   },
+  "betterdefaultbiomes:this_is_new": {
+    "criteria": {
+      "betterdefaultbiomes:kill_frozen_zombie": "2023-07-29 15:22:14 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/cut_midnight_sandstone_stonecutting_midnight_sandstone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
@@ -2624,6 +2636,12 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2023-07-29 15:59:54 -0300"
     },
     "done": true
   },
@@ -3993,8 +4011,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-07-29 14:30:40 -0300",
       "minecraft:skeleton": "2023-07-27 22:38:42 -0300",
       "minecraft:spider": "2023-07-28 20:08:55 -0300",
+      "minecraft:creeper": "2023-07-29 15:36:36 -0300",
       "minecraft:witch": "2023-07-27 23:41:03 -0300",
       "minecraft:cave_spider": "2023-07-28 22:14:21 -0300",
       "minecraft:silverfish": "2023-07-27 22:53:27 -0300",
@@ -4083,6 +4103,12 @@
   "blue_skies:recipes/blue_skies_everbright_blocks/polished_taratite": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-07-29 14:31:34 -0300"
     },
     "done": true
   },
@@ -5383,6 +5409,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2023-07-29 14:31:34 -0300"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/smelt_cloggrum_item": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
@@ -6001,6 +6033,12 @@
   "minecraft:recipes/decorative_blocks/oak_branch_from_smoking": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/mutual_aid": {
+    "criteria": {
+      "coded_trigger": "2023-07-29 16:26:43 -0300"
     },
     "done": true
   },
@@ -7480,6 +7518,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-07-29 17:15:43 -0300"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/sandstone_bridge_stair": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -8132,6 +8176,9 @@
   "buddycards:main/complete_set1": {
     "criteria": {
       "card4": "2023-07-29 01:17:13 -0300",
+      "card7": "2023-07-29 16:15:20 -0300",
+      "card8": "2023-07-29 16:13:55 -0300",
+      "card11": "2023-07-29 16:15:33 -0300",
       "card24": "2023-07-29 01:17:13 -0300",
       "card23": "2023-07-29 01:17:13 -0300",
       "card20": "2023-07-29 01:17:13 -0300"
@@ -9884,6 +9931,12 @@
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
     },
     "done": true
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_birch": "2023-07-29 14:31:16 -0300"
+    },
+    "done": false
   },
   "betterendforge:recipes/misc/stick_from_needlegrass": {
     "criteria": {
@@ -12322,6 +12375,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2023-07-29 15:36:39 -0300"
+    },
+    "done": true
+  },
   "supplementaries:recipes/firefly_jar": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -14705,6 +14764,12 @@
     },
     "done": true
   },
+  "mysticalworld:sapphire": {
+    "criteria": {
+      "book": "2023-07-29 17:32:40 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/lime_beach_float": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -16721,6 +16786,12 @@
     },
     "done": true
   },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2023-07-29 15:40:15 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/pink_scuba_harness": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -16954,6 +17025,12 @@
       "in_water": "2023-07-27 22:21:10 -0300"
     },
     "done": true
+  },
+  "betterdefaultbiomes:kill_all_mobs": {
+    "criteria": {
+      "betterdefaultbiomes:frozen_zombie": "2023-07-29 15:22:14 -0300"
+    },
+    "done": false
   },
   "blue_skies:recipes/misc/emerald_from_smelting": {
     "criteria": {
@@ -17612,6 +17689,12 @@
   "mysticalworld:recipes/mysticalworld/terracotta_brick_wall_from_terracotta_brick_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "generic_revelation": "2023-07-29 13:43:24 -0300"
     },
     "done": true
   },
@@ -19623,6 +19706,12 @@
   "blue_skies:recipes/blue_skies_misc/maple_stick": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "titles:pincushion": {
+    "criteria": {
+      "code_triggered": "2023-07-29 14:31:33 -0300"
     },
     "done": true
   },
@@ -22574,7 +22663,9 @@
   },
   "simplefarming:berries": {
     "criteria": {
-      "strawberries": "2023-07-27 22:32:49 -0300"
+      "blackberries": "2023-07-29 14:20:58 -0300",
+      "strawberries": "2023-07-27 22:32:49 -0300",
+      "raspberries": "2023-07-29 14:13:42 -0300"
     },
     "done": false
   },
@@ -22842,6 +22933,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2023-07-29 14:21:58 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/sandy_jadestone_polished_from_sandy_jadestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
@@ -22935,6 +23032,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/boomerang_diamond": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/lore_inscriber": {
+    "criteria": {
+      "etherium": "2023-07-29 15:59:54 -0300"
     },
     "done": true
   },
@@ -24926,6 +25029,8 @@
       "minecraft:birch_forest": "2023-07-27 23:05:13 -0300",
       "minecraft:dark_forest": "2023-07-27 22:21:16 -0300",
       "minecraft:river": "2023-07-27 22:21:15 -0300",
+      "minecraft:birch_forest_hills": "2023-07-29 14:28:25 -0300",
+      "minecraft:wooded_mountains": "2023-07-29 15:41:11 -0300",
       "minecraft:giant_tree_taiga_hills": "2023-07-27 23:59:33 -0300"
     },
     "done": false
@@ -25053,6 +25158,12 @@
   "mysticalworld:recipes/mysticalworld/mud_brick_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-29 15:46:43 -0300"
     },
     "done": true
   },
@@ -25534,6 +25645,7 @@
       "cooked_mutton": "2023-07-27 23:53:06 -0300",
       "apple": "2023-07-27 23:04:37 -0300",
       "potato": "2023-07-28 20:19:13 -0300",
+      "pumpkin_pie": "2023-07-29 14:31:04 -0300",
       "bread": "2023-07-27 23:10:32 -0300",
       "golden_apple": "2023-07-29 01:12:50 -0300",
       "golden_carrot": "2023-07-27 23:32:19 -0300",
