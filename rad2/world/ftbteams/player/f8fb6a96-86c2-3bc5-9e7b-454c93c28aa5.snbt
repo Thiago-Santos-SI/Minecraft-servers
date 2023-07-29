@@ -12,5 +12,7 @@
 		"ftbteams:free_to_join": 0b
 	}
 	message_history: [ ]
-	extra: { }
+	extra: {
+		Money: 314L
+	}
 }
