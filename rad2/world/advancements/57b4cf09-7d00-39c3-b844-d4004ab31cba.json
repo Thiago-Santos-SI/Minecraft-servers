@@ -3991,9 +3991,11 @@
       "minecraft:skeleton": "2023-07-27 21:38:58 -0300",
       "minecraft:spider": "2023-07-27 22:21:59 -0300",
       "minecraft:creeper": "2023-07-27 22:51:55 -0300",
+      "minecraft:witch": "2023-07-29 18:10:33 -0300",
       "minecraft:wither_skeleton": "2023-07-29 00:34:37 -0300",
       "minecraft:cave_spider": "2023-07-28 22:13:19 -0300",
       "minecraft:silverfish": "2023-07-28 20:06:53 -0300",
+      "minecraft:enderman": "2023-07-29 17:58:52 -0300",
       "minecraft:zombie": "2023-07-27 22:35:31 -0300"
     },
     "done": false
@@ -12219,6 +12221,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_ingot_from_smelting": {
+    "criteria": {
+      "has_ores_silver": "2023-07-29 18:09:57 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/thatch_trapdoor": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:05 -0300"
@@ -16780,6 +16788,7 @@
       "summon_steed": "2023-07-28 23:09:57 -0300",
       "ray": "2023-07-29 00:27:24 -0300",
       "amplify": "2023-07-28 23:02:46 -0300",
+      "leap": "2023-07-29 18:39:15 -0300",
       "magelight": "2023-07-28 21:41:54 -0300",
       "gust": "2023-07-28 22:29:35 -0300"
     },
@@ -20785,6 +20794,12 @@
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld/silver_ingot_from_blasting": {
+    "criteria": {
+      "has_ores_silver": "2023-07-29 18:09:57 -0300"
     },
     "done": true
   },

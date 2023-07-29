@@ -1319,6 +1319,12 @@
     },
     "done": true
   },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2023-07-29 18:10:34 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_blocks/blood_door": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:00 -0300"
@@ -3516,6 +3522,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/diamond_spear": {
+    "criteria": {
+      "has_diamond_sword": "2023-07-29 16:39:28 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_blocks/white_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:55 -0300"
@@ -4517,6 +4529,12 @@
   "betterendforge:recipes/betterendforge/terminite_helmet": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/mysticalworld/stone_knife_from_stone": {
+    "criteria": {
+      "has_stone": "2023-07-29 18:03:38 -0300"
     },
     "done": true
   },
@@ -7750,6 +7768,12 @@
     },
     "done": true
   },
+  "simplefarming:crops": {
+    "criteria": {
+      "lettuce": "2023-07-29 17:12:40 -0300"
+    },
+    "done": false
+  },
   "blue_skies:recipes/blue_skies_blocks/charoite_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:55 -0300"
@@ -8452,6 +8476,12 @@
   "undergarden:recipes/undergarden_group/froststeel_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:55 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare": {
+    "criteria": {
+      "sword": "2023-07-29 16:43:25 -0300"
     },
     "done": true
   },
@@ -13576,6 +13606,12 @@
     },
     "done": true
   },
+  "valhelsia_structures:recipes/valhelsia_structures_main/dark_oak_post": {
+    "criteria": {
+      "has_item": "2023-07-29 17:04:33 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/shaka_ingot_from_blasting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:01 -0300"
@@ -16750,6 +16786,12 @@
     },
     "done": true
   },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2023-07-29 18:00:53 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/pink_scuba_harness": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:00 -0300"
@@ -18745,6 +18787,12 @@
   "smallships:recipes/bop_jacaranda_drakkar": {
     "criteria": {
       "in_water": "2023-07-27 21:58:35 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:affix/root": {
+    "criteria": {
+      "sword": "2023-07-29 16:43:25 -0300"
     },
     "done": true
   },
@@ -23006,6 +23054,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/boomerang_diamond": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:00 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:affix/boss": {
+    "criteria": {
+      "sword": "2023-07-29 16:43:25 -0300"
     },
     "done": true
   },
