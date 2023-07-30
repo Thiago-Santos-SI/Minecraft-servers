@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/ingots_silver_to_9_nuggets": {
+    "criteria": {
+      "has_ingot_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_mallorn_galley": {
     "criteria": {
       "in_water": "2023-07-27 22:21:10 -0300"
@@ -1457,6 +1463,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_ebony": {
+    "criteria": {
+      "has_plank": "2023-07-30 00:46:15 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
@@ -1799,6 +1811,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/ingots_silver_to_storage_block": {
+    "criteria": {
+      "has_at_least_9_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/smogstem_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:21 -0300"
@@ -1928,6 +1946,12 @@
   "betterendforge:recipes/betterendforge/pythadendron_sign": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hanging_sign_ebony": {
+    "criteria": {
+      "has_plank": "2023-07-30 00:46:15 -0300"
     },
     "done": true
   },
@@ -3306,6 +3330,12 @@
     },
     "done": true
   },
+  "morevillagers:first_village": {
+    "criteria": {
+      "village": "2023-07-30 00:01:01 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/roasted_coffee_bean_from_campfire": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
@@ -3656,6 +3686,8 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
+      "entered_large_dungeon": "2023-07-30 00:21:14 -0300",
+      "entered_watch_tower": "2023-07-30 00:13:21 -0300",
       "entered_ruined_building": "2023-07-27 23:16:23 -0300",
       "entered_witch_tower": "2023-07-27 23:48:35 -0300"
     },
@@ -4018,6 +4050,7 @@
       "minecraft:witch": "2023-07-27 23:41:03 -0300",
       "minecraft:cave_spider": "2023-07-28 22:14:21 -0300",
       "minecraft:silverfish": "2023-07-27 22:53:27 -0300",
+      "minecraft:enderman": "2023-07-30 00:31:56 -0300",
       "minecraft:zombie": "2023-07-27 22:53:11 -0300"
     },
     "done": false
@@ -7352,6 +7385,7 @@
   },
   "lootr:social": {
     "criteria": {
+      "opened_barrel": "2023-07-29 23:44:11 -0300",
       "opened_chest": "2023-07-27 22:47:51 -0300"
     },
     "done": false
@@ -7779,6 +7813,7 @@
   },
   "simplefarming:crops": {
     "criteria": {
+      "corn": "2023-07-30 00:25:01 -0300",
       "eggplant": "2023-07-28 20:14:24 -0300"
     },
     "done": false
@@ -8917,6 +8952,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_boots": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
@@ -9298,6 +9339,12 @@
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2023-07-29 23:44:11 -0300"
     },
     "done": true
   },
@@ -9797,6 +9844,12 @@
   "tropicraft:recipes/tropicraft/yellow_pony_bottle": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld/silver_leggings": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
     },
     "done": true
   },
@@ -10730,6 +10783,12 @@
     },
     "done": true
   },
+  "dungeons_enhanced:thats_a_dungeon": {
+    "criteria": {
+      "entered_large_dungeon": "2023-07-30 00:21:14 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:21 -0300"
@@ -10931,6 +10990,12 @@
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:21 -0300"
+    },
+    "done": true
+  },
+  "relics:obtain/squire_bag": {
+    "criteria": {
+      "obtain_relic": "2023-07-30 00:25:01 -0300"
     },
     "done": true
   },
@@ -13954,6 +14019,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_axe": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/midnight_sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:21 -0300"
@@ -16756,6 +16827,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_pickaxe": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -16960,6 +17037,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_helmet": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/terminite_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
@@ -17085,6 +17168,12 @@
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
     },
     "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "taiga_village": "2023-07-30 00:19:28 -0300"
+    },
+    "done": false
   },
   "mysticalworld:recipes/mysticalworld/wet_mud_block": {
     "criteria": {
@@ -20027,6 +20116,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_hoe": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
@@ -20702,6 +20797,12 @@
   "greekfantasy:root": {
     "criteria": {
       "inv_changed": "2023-07-27 22:15:28 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candelabra_silver": {
+    "criteria": {
+      "has_plank": "2023-07-30 00:43:09 -0300"
     },
     "done": true
   },
@@ -24907,6 +25008,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/silver_shovel": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_dungeon/aquatic_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
@@ -24946,6 +25053,12 @@
   "feywild:recipes/feywild/feywild_lexicon": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld/silver_chestplate": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
     },
     "done": true
   },
@@ -25026,12 +25139,15 @@
       "minecraft:mountains": "2023-07-28 20:17:32 -0300",
       "minecraft:taiga": "2023-07-27 23:45:20 -0300",
       "minecraft:giant_tree_taiga": "2023-07-27 23:45:23 -0300",
+      "minecraft:taiga_hills": "2023-07-30 00:14:25 -0300",
       "minecraft:birch_forest": "2023-07-27 23:05:13 -0300",
       "minecraft:dark_forest": "2023-07-27 22:21:16 -0300",
       "minecraft:river": "2023-07-27 22:21:15 -0300",
       "minecraft:birch_forest_hills": "2023-07-29 14:28:25 -0300",
       "minecraft:wooded_mountains": "2023-07-29 15:41:11 -0300",
-      "minecraft:giant_tree_taiga_hills": "2023-07-27 23:59:33 -0300"
+      "minecraft:giant_tree_taiga_hills": "2023-07-27 23:59:33 -0300",
+      "minecraft:swamp": "2023-07-30 00:01:32 -0300",
+      "minecraft:plains": "2023-07-30 00:20:53 -0300"
     },
     "done": false
   },
@@ -25044,6 +25160,12 @@
   "betterendforge:recipes/betterendforge/violecite_button": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld/silver_sword": {
+    "criteria": {
+      "has_ingots_silver": "2023-07-30 00:43:09 -0300"
     },
     "done": true
   },

@@ -19721,6 +19721,12 @@
     },
     "done": true
   },
+  "titles:pincushion": {
+    "criteria": {
+      "code_triggered": "2023-07-29 22:38:49 -0300"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/tomahawk_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:55 -0300"
