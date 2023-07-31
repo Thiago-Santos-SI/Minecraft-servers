@@ -305,6 +305,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_dark_oak": {
+    "criteria": {
+      "has_plank": "2023-07-30 15:10:57 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/mysticalworld/wood_knife_from_planks": {
     "criteria": {
       "has_planks": "2023-07-27 21:47:21 -0300"
@@ -860,6 +866,12 @@
   "betterendforge:recipes/betterendforge/thallasium_hammer_smithing": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:38 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2023-07-30 18:18:41 -0300"
     },
     "done": true
   },
@@ -3438,6 +3450,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2023-07-30 15:39:03 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/jellyshroom_chest": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:39 -0300"
@@ -3531,6 +3549,12 @@
   "good_nights_sleep:recipes/gns_blocks/wretched_bed": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:38 -0300"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld/diamond_spear": {
+    "criteria": {
+      "has_diamond_sword": "2023-07-30 17:31:05 -0300"
     },
     "done": true
   },
@@ -3688,6 +3712,7 @@
     "criteria": {
       "entered_tower_of_the_undead": "2023-07-30 01:11:10 -0300",
       "entered_large_dungeon": "2023-07-27 23:30:00 -0300",
+      "entered_castle": "2023-07-30 17:11:13 -0300",
       "entered_watch_tower": "2023-07-29 22:07:03 -0300",
       "entered_ruined_building": "2023-07-28 20:50:51 -0300",
       "entered_witch_tower": "2023-07-27 22:00:18 -0300"
@@ -8205,6 +8230,14 @@
     },
     "done": true
   },
+  "buddycards:main/complete_set1": {
+    "criteria": {
+      "card14": "2023-07-30 16:37:12 -0300",
+      "card11": "2023-07-30 16:37:12 -0300",
+      "card10": "2023-07-30 16:37:12 -0300"
+    },
+    "done": false
+  },
   "blue_skies:recipes/misc/orange_dye_from_blaze_bud": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:38 -0300"
@@ -9293,6 +9326,12 @@
     },
     "done": true
   },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2023-07-30 15:29:55 -0300"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/tin_nugget_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
@@ -9879,6 +9918,12 @@
   "good_nights_sleep:recipes/gns_items/necrum_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2023-07-30 16:59:53 -0300"
     },
     "done": true
   },
@@ -11717,6 +11762,12 @@
   "bountifulbaubles:recipes/bountifulbaubles/gloves_digging_iron": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:35 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/easy_opening": {
+    "criteria": {
+      "coded_trigger": "2023-07-30 15:36:53 -0300"
     },
     "done": true
   },
@@ -14565,6 +14616,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_dark_oak": {
+    "criteria": {
+      "has_plank": "2023-07-30 15:10:57 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_blocks/white_button": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:37 -0300"
@@ -16839,6 +16896,12 @@
     },
     "done": true
   },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_castle": "2023-07-30 17:11:13 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/end_stone_bricks": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:39 -0300"
@@ -16896,6 +16959,12 @@
   "enigmaticlegacy:recipes/generic/hunter_guide": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:35 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2023-07-30 18:19:15 -0300"
     },
     "done": true
   },
@@ -19488,6 +19557,12 @@
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
     },
     "done": true
+  },
+  "morevillagers:map_bastion": {
+    "criteria": {
+      "hasmap": "2023-07-30 15:33:49 -0300"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/purple_banner": {
     "criteria": {
@@ -22574,6 +22649,12 @@
     },
     "done": true
   },
+  "dungeons_enhanced:wars_and_kingdoms": {
+    "criteria": {
+      "entered_castle": "2023-07-30 17:11:13 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_apple_rowboat": {
     "criteria": {
       "in_water": "2023-07-27 21:59:56 -0300"
@@ -22844,6 +22925,12 @@
   "undergarden:recipes/undergarden_group/cloggrum_tile_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:35 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_grave_type": {
+    "criteria": {
+      "coded_trigger": "2023-07-30 18:19:25 -0300"
     },
     "done": true
   },
@@ -24125,6 +24212,12 @@
     },
     "done": true
   },
+  "dungeons_plus:adventure/find_snowy_temple": {
+    "criteria": {
+      "structure": "2023-07-30 18:27:25 -0300"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/decorations/dark_oak_beam": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:39 -0300"
@@ -24971,6 +25064,12 @@
     },
     "done": true
   },
+  "morevillagers:map_endcity": {
+    "criteria": {
+      "hasmap": "2023-07-30 15:33:49 -0300"
+    },
+    "done": false
+  },
   "decorative_winter:recipes/decorative_blocks/frosty_wand": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:40 -0300"
@@ -25177,13 +25276,20 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2023-07-30 16:47:43 -0300",
       "minecraft:mountains": "2023-07-27 23:50:28 -0300",
       "minecraft:taiga": "2023-07-27 21:59:54 -0300",
+      "minecraft:giant_tree_taiga": "2023-07-30 16:46:26 -0300",
+      "minecraft:snowy_tundra": "2023-07-30 18:24:34 -0300",
+      "minecraft:taiga_hills": "2023-07-30 18:20:18 -0300",
       "minecraft:birch_forest": "2023-07-27 21:50:46 -0300",
+      "minecraft:beach": "2023-07-30 16:47:39 -0300",
       "minecraft:dark_forest": "2023-07-27 23:49:58 -0300",
       "minecraft:river": "2023-07-27 22:00:16 -0300",
+      "minecraft:snowy_taiga": "2023-07-30 18:25:25 -0300",
       "minecraft:birch_forest_hills": "2023-07-27 21:58:15 -0300",
       "minecraft:wooded_mountains": "2023-07-27 23:52:13 -0300",
+      "minecraft:giant_tree_taiga_hills": "2023-07-30 16:46:48 -0300",
       "minecraft:swamp": "2023-07-29 21:57:33 -0300",
       "minecraft:plains": "2023-07-28 20:56:47 -0300"
     },
@@ -25318,6 +25424,12 @@
   "mysticalworld:recipes/mysticalworld/mud_brick_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:40 -0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-30 18:30:13 -0300"
     },
     "done": true
   },
@@ -25787,6 +25899,7 @@
     "criteria": {
       "cooked_porkchop": "2023-07-28 22:09:33 -0300",
       "cooked_beef": "2023-07-28 23:58:06 -0300",
+      "suspicious_stew": "2023-07-30 17:33:19 -0300",
       "mushroom_stew": "2023-07-27 22:16:38 -0300",
       "cooked_mutton": "2023-07-27 22:46:44 -0300",
       "potato": "2023-07-27 21:50:27 -0300",

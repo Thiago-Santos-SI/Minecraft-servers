@@ -2,9 +2,7 @@
 	id: "e329bfa8-f4e6-3a3e-af61-ac8a9f249755"
 	type: "player"
 	player_name: "IDYonix"
-	ranks: {
-		e329bfa8-f4e6-3a3e-af61-ac8a9f249755: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "IDYonix"
 		"ftbteams:color": "#C759FF"
@@ -13,6 +11,6 @@
 	}
 	message_history: [ ]
 	extra: {
-		Money: 148L
+		Money: 65L
 	}
 }

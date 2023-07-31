@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/dense_twilight_forest": {
+    "criteria": {
+      "discover": "2023-07-30 13:21:19 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/missing_tile": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
@@ -1148,6 +1154,12 @@
   "blue_skies:recipes/decorations/enchanting_table_compat": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/skeleton_druid": {
+    "criteria": {
+      "hurt_by_indirect": "2023-07-30 13:59:58 -0300"
     },
     "done": true
   },
@@ -1966,6 +1978,15 @@
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
     },
     "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "twilight_oak_sapling": "2023-07-30 13:21:19 -0300",
+      "mine_stairs": "2023-07-30 14:01:41 -0300",
+      "mine_slab": "2023-07-30 14:00:37 -0300",
+      "canopy_sapling": "2023-07-30 14:51:11 -0300"
+    },
+    "done": false
   },
   "constructionwand:recipes/tools/stone_wand": {
     "criteria": {
@@ -2897,6 +2918,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/kobold": {
+    "criteria": {
+      "hurt": "2023-07-30 15:03:50 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -2960,6 +2987,12 @@
   "betterendforge:recipes/betterendforge/pythadendron_stripped_bark": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2023-07-30 23:48:25 -0300"
     },
     "done": true
   },
@@ -3044,6 +3077,12 @@
   "blue_skies:recipes/blue_skies_misc/cooked_venison_from_smoking": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-07-30 22:48:24 -0300"
     },
     "done": true
   },
@@ -3286,6 +3325,12 @@
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
     },
     "done": true
+  },
+  "repurposed_structures:igloos": {
+    "criteria": {
+      "in_igloo_stone": "2023-07-30 21:06:59 -0300"
+    },
+    "done": false
   },
   "blue_skies:recipes/blue_skies_dungeon/poison_stonebrick": {
     "criteria": {
@@ -4262,6 +4307,12 @@
   "betterendforge:recipes/betterendforge/end_lotus_fence": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/naga_courtyard": {
+    "criteria": {
+      "discover": "2023-07-30 13:21:19 -0300"
     },
     "done": true
   },
@@ -5370,6 +5421,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "4": "2023-07-30 13:21:19 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_misc/diopside_gem_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
@@ -5733,6 +5790,12 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
+    },
+    "done": true
+  },
+  "greekfantasy:kill_shade": {
+    "criteria": {
+      "kill_shade": "2023-07-30 23:07:49 -0300"
     },
     "done": true
   },
@@ -6195,6 +6258,12 @@
     },
     "done": true
   },
+  "valhelsia_structures:recipes/valhelsia_structures_main/oak_post": {
+    "criteria": {
+      "has_item": "2023-07-30 20:16:25 -0300"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/acacia_trim": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -6438,6 +6507,12 @@
   "farmersdelight:recipes/farmersdelight/cooked_cod_slice_from_smoking": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/unholy_grail": {
+    "criteria": {
+      "spellstone": "2023-07-30 14:45:43 -0300"
     },
     "done": true
   },
@@ -7950,6 +8025,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/mushroom_forest": {
+    "criteria": {
+      "discover": "2023-07-30 14:51:09 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/oak_galley": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:21 -0300"
@@ -8382,6 +8463,12 @@
     },
     "done": true
   },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2023-07-30 15:34:47 -0300"
+    },
+    "done": true
+  },
   "decorative_blocks_abnormals:recipes/decorations/ender_chandelier": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -8517,6 +8604,12 @@
   "undergarden:recipes/undergarden_group/froststeel_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare": {
+    "criteria": {
+      "sword": "2023-07-30 13:28:25 -0300"
     },
     "done": true
   },
@@ -8763,6 +8856,12 @@
   "aquaculture:recipes/tools/wooden_fillet_knife": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2023-07-31 00:30:31 -0300"
     },
     "done": true
   },
@@ -9889,6 +9988,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-07-31 00:31:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:19 -0300"
@@ -10261,6 +10366,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "kill_mob": "2023-07-30 14:00:50 -0300"
+    },
+    "done": false
+  },
   "blue_skies:recipes/blue_skies_dungeon/glowing_nature_stonebrick_from_glowstone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -10366,6 +10477,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
+    },
+    "done": true
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2023-07-30 14:08:26 -0300"
     },
     "done": true
   },
@@ -13617,6 +13734,12 @@
     },
     "done": true
   },
+  "morevillagers:first_workstation_get": {
+    "criteria": {
+      "blastfurnace": "2023-07-30 21:07:34 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/lucernia_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
@@ -14481,6 +14604,12 @@
     },
     "done": true
   },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "skeleton_druid": "2023-07-30 14:00:50 -0300"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/utherium_chunk_to_ingot": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
@@ -14664,6 +14793,12 @@
   "mysticalworld:recipes/mysticalworld/cooked_venison_from_campfire": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/undead": {
+    "criteria": {
+      "0": "2023-07-30 13:59:58 -0300"
     },
     "done": true
   },
@@ -16088,6 +16223,12 @@
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
     },
     "done": true
+  },
+  "morevillagers:all_workstations_get": {
+    "criteria": {
+      "blastfurnace": "2023-07-30 21:07:34 -0300"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/slime_block": {
     "criteria": {
@@ -17733,6 +17874,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-07-30 23:48:25 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_blocks/warding_pearl": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -18759,6 +18906,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/materials/earth_heart": {
+    "criteria": {
+      "has_items": "2023-07-30 13:41:55 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/aeternium_ingot_from_aeternium_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -18876,6 +19029,12 @@
   "smallships:recipes/bop_jacaranda_drakkar": {
     "criteria": {
       "in_water": "2023-07-27 22:21:10 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:affix/root": {
+    "criteria": {
+      "sword": "2023-07-30 13:28:25 -0300"
     },
     "done": true
   },
@@ -19014,6 +19173,12 @@
   "tropicraft:recipes/tropicraft/blue_umbrella": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
+    },
+    "done": true
+  },
+  "workshopsofdoom:find_quarry_or_mines": {
+    "criteria": {
+      "workshopsofdoom:mountain_mines": "2023-07-31 00:37:24 -0300"
     },
     "done": true
   },
@@ -19395,6 +19560,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-07-30 14:08:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -19440,6 +19611,12 @@
   "blue_skies:recipes/blue_skies_everdawn_blocks/smooth_crystal_sandstone_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
+    },
+    "done": true
+  },
+  "spartanweaponry:warhammer": {
+    "criteria": {
+      "has_warhammer": "2023-07-31 00:32:35 -0300"
     },
     "done": true
   },
@@ -21634,6 +21811,12 @@
     },
     "done": true
   },
+  "feywild:feywild/dwarf_trade": {
+    "criteria": {
+      "villager_trade": "2023-07-30 14:08:26 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_armor/zitrite_helmet": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
@@ -21781,6 +21964,12 @@
   "blue_skies:recipes/blue_skies_dungeon/glowing_aquatic_slab_stonecutting_glowing_aquatic_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
+    },
+    "done": true
+  },
+  "feywild:feywild/fey_dust": {
+    "criteria": {
+      "inventory_changed2": "2023-07-30 14:08:28 -0300"
     },
     "done": true
   },
@@ -22764,11 +22953,12 @@
   },
   "simplefarming:berries": {
     "criteria": {
+      "blueberries": "2023-07-30 20:37:48 -0300",
       "blackberries": "2023-07-29 14:20:58 -0300",
       "strawberries": "2023-07-27 22:32:49 -0300",
       "raspberries": "2023-07-29 14:13:42 -0300"
     },
-    "done": false
+    "done": true
   },
   "blue_skies:recipes/blue_skies_everbright_blocks/turquoise_dripstone_stonecutting_turquoise_stone": {
     "criteria": {
@@ -23136,6 +23326,12 @@
     },
     "done": true
   },
+  "apotheosis:affix/boss": {
+    "criteria": {
+      "sword": "2023-07-30 13:28:25 -0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:main/lore_inscriber": {
     "criteria": {
       "etherium": "2023-07-29 15:59:54 -0300"
@@ -23331,6 +23527,12 @@
   "comforts:hammock_light_blue": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
+    },
+    "done": true
+  },
+  "spartanweaponry:battle_hammer": {
+    "criteria": {
+      "has_battle_hammer": "2023-07-31 00:31:11 -0300"
     },
     "done": true
   },
@@ -24708,6 +24910,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/fish_and_chips": {
+    "criteria": {
+      "has_cooked_seafood": "2023-07-30 14:01:40 -0300"
+    },
+    "done": true
+  },
   "aquaculture:recipes/combat/neptunium_boots": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
@@ -25002,6 +25210,12 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2023-07-30 14:33:36 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
@@ -25141,6 +25355,7 @@
       "minecraft:giant_tree_taiga": "2023-07-27 23:45:23 -0300",
       "minecraft:taiga_hills": "2023-07-30 00:14:25 -0300",
       "minecraft:birch_forest": "2023-07-27 23:05:13 -0300",
+      "minecraft:beach": "2023-07-30 20:57:16 -0300",
       "minecraft:dark_forest": "2023-07-27 22:21:16 -0300",
       "minecraft:river": "2023-07-27 22:21:15 -0300",
       "minecraft:birch_forest_hills": "2023-07-29 14:28:25 -0300",
@@ -25767,6 +25982,7 @@
       "cooked_mutton": "2023-07-27 23:53:06 -0300",
       "apple": "2023-07-27 23:04:37 -0300",
       "potato": "2023-07-28 20:19:13 -0300",
+      "cooked_cod": "2023-07-30 14:13:02 -0300",
       "pumpkin_pie": "2023-07-29 14:31:04 -0300",
       "bread": "2023-07-27 23:10:32 -0300",
       "golden_apple": "2023-07-29 01:12:50 -0300",
@@ -26043,6 +26259,12 @@
   "betterendforge:recipes/betterendforge/umbralith_bricks_slab_from_umbralith_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2023-07-30 15:35:11 -0300"
     },
     "done": true
   },
