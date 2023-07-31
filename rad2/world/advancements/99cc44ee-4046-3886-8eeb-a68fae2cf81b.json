@@ -20911,6 +20911,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_small_prairie_house": {
+    "criteria": {
+      "location0": "2023-07-31 14:35:30 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:26 -0300"
@@ -25351,6 +25357,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:mountains": "2023-07-28 20:17:32 -0300",
+      "minecraft:forest": "2023-07-31 14:46:36 -0300",
       "minecraft:taiga": "2023-07-27 23:45:20 -0300",
       "minecraft:giant_tree_taiga": "2023-07-27 23:45:23 -0300",
       "minecraft:taiga_hills": "2023-07-30 00:14:25 -0300",

@@ -1079,6 +1079,12 @@
     },
     "done": true
   },
+  "dungeons_enhanced:traps_and_curses": {
+    "criteria": {
+      "entered_desert_temple": "2023-07-31 12:21:25 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/umbralith_bricks_wall_from_umbralith_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
@@ -1558,6 +1564,12 @@
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-07-31 11:15:34 -0300"
+    },
+    "done": false
   },
   "aquaculture:recipes/decorations/birch_fish_mount": {
     "criteria": {
@@ -2234,6 +2246,12 @@
   "betterendforge:recipes/betterendforge/umbrella_tree_sign": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
+    },
+    "done": true
+  },
+  "betterdefaultbiomes:this_is_new": {
+    "criteria": {
+      "betterdefaultbiomes:kill_desert_bandit": "2023-07-31 14:47:16 -0300"
     },
     "done": true
   },
@@ -2942,6 +2960,12 @@
   "decorative_blocks_abnormals:recipes/jacaranda_seat": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-07-31 11:45:29 -0300"
     },
     "done": true
   },
@@ -3717,6 +3741,7 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_pillager_camp": "2023-07-31 00:48:07 -0300",
+      "entered_desert_temple": "2023-07-31 12:21:25 -0300",
       "entered_large_dungeon": "2023-07-27 23:25:15 -0300",
       "entered_castle": "2023-07-30 16:48:34 -0300",
       "entered_watch_tower": "2023-07-29 23:05:02 -0300",
@@ -4075,15 +4100,20 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-07-27 22:23:21 -0300",
+      "minecraft:blaze": "2023-07-31 11:15:25 -0300",
       "minecraft:skeleton": "2023-07-27 21:38:58 -0300",
       "minecraft:ravager": "2023-07-30 00:10:08 -0300",
       "minecraft:vindicator": "2023-07-30 00:07:01 -0300",
+      "minecraft:magma_cube": "2023-07-31 11:57:15 -0300",
       "minecraft:spider": "2023-07-27 22:21:59 -0300",
       "minecraft:creeper": "2023-07-27 22:51:55 -0300",
+      "minecraft:slime": "2023-07-31 11:05:20 -0300",
+      "minecraft:zombified_piglin": "2023-07-31 11:55:49 -0300",
       "minecraft:witch": "2023-07-29 18:10:33 -0300",
       "minecraft:wither_skeleton": "2023-07-29 00:34:37 -0300",
       "minecraft:husk": "2023-07-30 01:33:29 -0300",
       "minecraft:cave_spider": "2023-07-28 22:13:19 -0300",
+      "minecraft:piglin": "2023-07-31 11:53:40 -0300",
       "minecraft:silverfish": "2023-07-28 20:06:53 -0300",
       "minecraft:enderman": "2023-07-29 17:58:52 -0300",
       "minecraft:stray": "2023-07-31 01:05:06 -0300",
@@ -5250,6 +5280,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_sythian": {
+    "criteria": {
+      "has_plank": "2023-07-31 11:11:27 -0300"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.modded/longsword_lead": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
@@ -5787,6 +5823,12 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
+    },
+    "done": true
+  },
+  "greekfantasy:kill_shade": {
+    "criteria": {
+      "kill_shade": "2023-07-31 14:01:51 -0300"
     },
     "done": true
   },
@@ -8399,6 +8441,12 @@
     },
     "done": true
   },
+  "constructionwand:recipes/misc/core_destruction": {
+    "criteria": {
+      "has_item": "2023-07-31 13:48:17 -0300"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/forgotten_pickaxe_smithing": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:07 -0300"
@@ -9672,6 +9720,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/guster": {
+    "criteria": {
+      "killed_by": "2023-07-31 14:49:58 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_aspen_galley": {
     "criteria": {
       "in_water": "2023-07-27 21:38:42 -0300"
@@ -9933,6 +9987,12 @@
   "spartanweaponry:recipes/spartanweaponry.modded/flanged_mace_tin": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:02 -0300"
+    },
+    "done": true
+  },
+  "relics:obtain/holy_locket": {
+    "criteria": {
+      "obtain_relic": "2023-07-31 14:37:46 -0300"
     },
     "done": true
   },
@@ -11122,6 +11182,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/lance_iron": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:10 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_painted_acacia": {
+    "criteria": {
+      "has_plank": "2023-07-31 14:34:17 -0300"
     },
     "done": true
   },
@@ -12959,6 +13025,12 @@
   "betterendforge:recipes/betterendforge/sulphuric_rock_slab_from_sulphuric_rock_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-07-31 11:15:56 -0300"
     },
     "done": true
   },
@@ -14985,6 +15057,12 @@
     },
     "done": true
   },
+  "mysticalworld:sapphire": {
+    "criteria": {
+      "book": "2023-07-31 13:26:13 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/lime_beach_float": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:04 -0300"
@@ -15963,6 +16041,12 @@
     },
     "done": true
   },
+  "spartanweaponry:collect_heads": {
+    "criteria": {
+      "wither_skeleton_skull": "2023-07-31 11:44:10 -0300"
+    },
+    "done": false
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/smooth_midnight_sandstone_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
@@ -16137,6 +16221,12 @@
     },
     "done": true
   },
+  "buzzier_bees:adventure/four_leaf_clover": {
+    "criteria": {
+      "four_leaf_clover": "2023-07-31 14:36:31 -0300"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/uncanny_mushroom_wide_post": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
@@ -16146,6 +16236,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-07-31 11:05:13 -0300"
     },
     "done": true
   },
@@ -16390,6 +16486,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:05 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_sythian": {
+    "criteria": {
+      "has_plank": "2023-07-31 11:11:27 -0300"
     },
     "done": true
   },
@@ -16965,6 +17067,7 @@
   },
   "dungeons_enhanced:seven_world_wonders": {
     "criteria": {
+      "entered_desert_temple": "2023-07-31 12:21:25 -0300",
       "entered_castle": "2023-07-30 16:48:34 -0300"
     },
     "done": false
@@ -17074,10 +17177,14 @@
   "rad_recipes:mad_mage": {
     "criteria": {
       "ignite": "2023-07-28 23:24:01 -0300",
+      "cold_snap": "2023-07-31 14:13:00 -0300",
+      "freeze": "2023-07-31 14:11:18 -0300",
       "summon_steed": "2023-07-28 23:09:57 -0300",
+      "area_of_effect": "2023-07-31 13:20:42 -0300",
       "ray": "2023-07-29 00:27:24 -0300",
       "amplify": "2023-07-28 23:02:46 -0300",
       "speed": "2023-07-29 23:15:39 -0300",
+      "amplify_two": "2023-07-31 13:50:11 -0300",
       "leap": "2023-07-29 18:39:15 -0300",
       "break": "2023-07-30 23:52:17 -0300",
       "magelight": "2023-07-28 21:41:54 -0300",
@@ -19441,6 +19548,12 @@
   "minecraft:recipes/misc/diamond_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
+    },
+    "done": true
+  },
+  "apotheosis:affix/uncommon": {
+    "criteria": {
+      "sword": "2023-07-31 14:19:50 -0300"
     },
     "done": true
   },
@@ -22253,6 +22366,12 @@
     },
     "done": true
   },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_giant_tree_taiga": "2023-07-31 12:28:03 -0300"
+    },
+    "done": false
+  },
   "tropicraft:recipes/tropicraft/eudialyte_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
@@ -22334,6 +22453,12 @@
   "tropicraft:recipes/tropicraft/thatch_door": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-07-31 11:05:13 -0300"
     },
     "done": true
   },
@@ -22664,6 +22789,12 @@
   "mysticalworld:recipes/mysticalworld/pearleporter": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-07-31 11:44:10 -0300"
     },
     "done": true
   },
@@ -24609,6 +24740,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_painted_acacia": {
+    "criteria": {
+      "has_plank": "2023-07-31 14:34:17 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/violecite_furnace": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
@@ -25321,12 +25458,17 @@
     "criteria": {
       "minecraft:cold_ocean": "2023-07-30 16:45:12 -0300",
       "minecraft:mountains": "2023-07-28 19:42:52 -0300",
+      "minecraft:forest": "2023-07-31 12:23:46 -0300",
       "minecraft:taiga": "2023-07-27 23:13:40 -0300",
       "minecraft:giant_tree_taiga": "2023-07-27 23:14:18 -0300",
+      "minecraft:snowy_tundra": "2023-07-31 12:29:33 -0300",
       "minecraft:taiga_hills": "2023-07-30 16:57:12 -0300",
+      "minecraft:desert": "2023-07-31 12:21:12 -0300",
+      "minecraft:frozen_river": "2023-07-31 12:29:32 -0300",
       "minecraft:deep_frozen_ocean": "2023-07-30 16:45:22 -0300",
       "minecraft:birch_forest": "2023-07-27 21:32:13 -0300",
       "abundance:lavender_fields": "2023-07-29 22:42:14 -0300",
+      "minecraft:savanna_plateau": "2023-07-31 12:20:54 -0300",
       "minecraft:beach": "2023-07-27 23:16:10 -0300",
       "minecraft:dark_forest": "2023-07-29 22:17:48 -0300",
       "minecraft:river": "2023-07-27 21:59:31 -0300",
@@ -25334,6 +25476,7 @@
       "minecraft:wooded_mountains": "2023-07-29 22:42:08 -0300",
       "minecraft:giant_tree_taiga_hills": "2023-07-27 23:15:00 -0300",
       "minecraft:swamp": "2023-07-29 21:54:53 -0300",
+      "minecraft:savanna": "2023-07-31 12:21:00 -0300",
       "minecraft:plains": "2023-07-30 15:24:48 -0300"
     },
     "done": false
@@ -25455,6 +25598,12 @@
   "mysticalworld:recipes/mysticalworld/mud_brick_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:09 -0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-31 12:31:43 -0300"
     },
     "done": true
   },

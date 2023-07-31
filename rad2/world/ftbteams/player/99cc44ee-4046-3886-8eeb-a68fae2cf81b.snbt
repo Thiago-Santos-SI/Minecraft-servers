@@ -2,17 +2,15 @@
 	id: "99cc44ee-4046-3886-8eeb-a68fae2cf81b"
 	type: "player"
 	player_name: "binjmhu"
-	ranks: {
-		99cc44ee-4046-3886-8eeb-a68fae2cf81b: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "binjmhu"
-		"ftbteams:color": "#A359FF"
+		"ftbteams:color": "#FF59EE"
 		"ftbteams:description": ""
 		"ftbteams:free_to_join": 0b
 	}
 	message_history: [ ]
 	extra: {
-		Money: 1105L
+		Money: 1160L
 	}
 }

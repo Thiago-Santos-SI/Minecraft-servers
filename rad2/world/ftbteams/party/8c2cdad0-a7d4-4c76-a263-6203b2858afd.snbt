@@ -3,6 +3,7 @@
 	type: "party"
 	owner: "57b4cf09-7d00-39c3-b844-d4004ab31cba"
 	ranks: {
+		99cc44ee-4046-3886-8eeb-a68fae2cf81b: "member"
 		57b4cf09-7d00-39c3-b844-d4004ab31cba: "owner"
 		e329bfa8-f4e6-3a3e-af61-ac8a9f249755: "member"
 	}
@@ -18,6 +19,8 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1690761993550L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"IDYonix\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
 		{ from: "57b4cf09-7d00-39c3-b844-d4004ab31cba", date: 1690773097320L, text: "{\"text\":\"a\"}" }
 		{ from: "57b4cf09-7d00-39c3-b844-d4004ab31cba", date: 1690773106075L, text: "{\"text\":\"/ftbteams \"}" }
+		{ from: "57b4cf09-7d00-39c3-b844-d4004ab31cba", date: 1690826334950L, text: "{\"color\":\"green\",\"text\":\"Invited binjmhu\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1690826351192L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"binjmhu\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
 	]
 	extra: { }
 }
