@@ -1157,6 +1157,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/skeleton_druid": {
+    "criteria": {
+      "hurt_by_indirect": "2023-08-01 00:07:30 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/building_blocks/glass_from_end_stone_dust": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:59 -0300"
@@ -1421,6 +1427,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-07-31 22:42:42 -0300"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/cloggrum_chestplate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
@@ -1436,6 +1448,12 @@
   "usefulhats:recipes/combat/wing_helmet": {
     "criteria": {
       "has_feather": "2023-07-28 21:39:09 -0300"
+    },
+    "done": true
+  },
+  "illagers_plus:find_centre": {
+    "criteria": {
+      "fortress": "2023-07-31 23:55:17 -0300"
     },
     "done": true
   },
@@ -1978,6 +1996,14 @@
       "has_the_recipe": "2023-07-27 21:29:09 -0300"
     },
     "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "twilight_oak_planks": "2023-08-01 00:22:18 -0300",
+      "twilight_oak_sapling": "2023-08-01 00:05:11 -0300",
+      "canopy_sapling": "2023-08-01 00:07:23 -0300"
+    },
+    "done": false
   },
   "constructionwand:recipes/tools/stone_wand": {
     "criteria": {
@@ -2810,6 +2836,12 @@
   "enigmaticlegacy:book/relics/enigmatic_amulet": {
     "criteria": {
       "has_items": "2023-07-27 21:29:10 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hanging_sign_twilight_oak_tf": {
+    "criteria": {
+      "has_plank": "2023-08-01 00:22:18 -0300"
     },
     "done": true
   },
@@ -3741,6 +3773,7 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_pillager_camp": "2023-07-31 00:48:07 -0300",
+      "entered_fishing_ship": "2023-07-31 23:57:15 -0300",
       "entered_desert_temple": "2023-07-31 12:21:25 -0300",
       "entered_large_dungeon": "2023-07-27 23:25:15 -0300",
       "entered_castle": "2023-07-30 16:48:34 -0300",
@@ -5496,6 +5529,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-31 23:15:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:07 -0300"
@@ -6824,9 +6863,10 @@
   },
   "twilightforest:progress_lich": {
     "criteria": {
+      "kill_lich": "2023-08-01 00:22:03 -0300",
       "kill_naga": "2023-07-30 01:23:58 -0300"
     },
-    "done": false
+    "done": true
   },
   "smallships:recipes/lotr_lebethron_brigg": {
     "criteria": {
@@ -7742,6 +7782,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/yeti": {
+    "criteria": {
+      "slay": "2023-08-01 00:36:27 -0300"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/rapier_netherite_smithing": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
@@ -8079,6 +8125,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/mushroom_forest": {
+    "criteria": {
+      "discover": "2023-08-01 00:03:19 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/oak_galley": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
@@ -8106,6 +8158,12 @@
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:02 -0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-31 23:48:28 -0300"
     },
     "done": true
   },
@@ -9179,6 +9237,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/twilight_forest": {
+    "criteria": {
+      "discover": "2023-08-01 00:04:45 -0300"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/hamburger": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
@@ -9410,6 +9474,12 @@
   "undergarden:recipes/undergarden_group/depthrock_slab_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:59 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/death_tome": {
+    "criteria": {
+      "hurt": "2023-08-01 00:13:44 -0300"
     },
     "done": true
   },
@@ -10131,6 +10201,12 @@
   "undergarden:recipes/undergarden_group/cloggrum_pickaxe": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:09 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2023-07-31 22:13:31 -0300"
     },
     "done": true
   },
@@ -13293,6 +13369,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_twilight_oak_tf": {
+    "criteria": {
+      "has_plank": "2023-08-01 00:22:18 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/cooked_ray": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
@@ -14421,6 +14503,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2023-08-01 00:22:03 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
@@ -14889,6 +14977,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/undead": {
+    "criteria": {
+      "0": "2023-08-01 00:07:30 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_blocks/delusion_stonebrick": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:07 -0300"
@@ -15213,6 +15307,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/hollow_hills": {
+    "criteria": {
+      "2": "2023-08-01 00:08:23 -0300"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/birch_rail_bridge": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
@@ -15320,6 +15420,12 @@
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
     },
     "done": true
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "kill_lich": "2023-08-01 00:22:03 -0300"
+    },
+    "done": false
   },
   "mysticalworld:recipes/mysticalworld/lead_nugget_from_blasting": {
     "criteria": {
@@ -16621,6 +16727,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/snowy_forest": {
+    "criteria": {
+      "discover": "2023-08-01 00:03:33 -0300"
+    },
+    "done": true
+  },
   "decorative_blocks_abnormals:recipes/jacaranda_palisade": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:07 -0300"
@@ -16915,6 +17027,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/arthopods": {
+    "criteria": {
+      "3": "2023-08-01 00:08:26 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/mossy_glowshroom_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:04 -0300"
@@ -17084,6 +17202,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_cyclops": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-31 23:53:58 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
@@ -17178,15 +17302,22 @@
     "criteria": {
       "ignite": "2023-07-28 23:24:01 -0300",
       "cold_snap": "2023-07-31 14:13:00 -0300",
+      "snare": "2023-07-31 23:33:50 -0300",
       "freeze": "2023-07-31 14:11:18 -0300",
       "summon_steed": "2023-07-28 23:09:57 -0300",
       "area_of_effect": "2023-07-31 13:20:42 -0300",
       "ray": "2023-07-29 00:27:24 -0300",
+      "shield": "2023-07-31 21:51:38 -0300",
       "amplify": "2023-07-28 23:02:46 -0300",
       "speed": "2023-07-29 23:15:39 -0300",
       "amplify_two": "2023-07-31 13:50:11 -0300",
+      "extend_time": "2023-07-31 21:53:02 -0300",
+      "heal": "2023-07-31 21:50:42 -0300",
       "leap": "2023-07-29 18:39:15 -0300",
       "break": "2023-07-30 23:52:17 -0300",
+      "launch": "2023-07-31 22:02:07 -0300",
+      "ender_inventory": "2023-07-31 21:42:06 -0300",
+      "gravity": "2023-07-31 22:01:36 -0300",
       "magelight": "2023-07-28 21:41:54 -0300",
       "gust": "2023-07-28 22:29:35 -0300"
     },
@@ -17423,6 +17554,7 @@
   "morevillagers:all_villages": {
     "criteria": {
       "taiga_village": "2023-07-27 23:13:43 -0300",
+      "savanna_village": "2023-07-31 23:52:03 -0300",
       "plains_village": "2023-07-31 00:56:10 -0300"
     },
     "done": false
@@ -17490,6 +17622,12 @@
   "blue_skies:recipes/blue_skies_combat/aquite_boots": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/large_hollow_hill": {
+    "criteria": {
+      "discover": "2023-08-01 00:08:23 -0300"
     },
     "done": true
   },
@@ -17808,6 +17946,12 @@
   "betterendforge:recipes/betterendforge/helix_tree_stripped_bark": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "shepherds_pie": "2023-07-31 23:26:22 -0300"
     },
     "done": true
   },
@@ -18288,6 +18432,18 @@
   "blue_skies:recipes/blue_skies_dungeon/nature_stonebrick_slab_stonecutting_nature_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:06 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/lich": {
+    "criteria": {
+      "hurt": "2023-08-01 00:21:58 -0300"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_fishing_hut": {
+    "criteria": {
+      "location0": "2023-07-31 23:57:40 -0300"
     },
     "done": true
   },
@@ -20269,6 +20425,12 @@
   "smallships:recipes/lotr_holly_cog": {
     "criteria": {
       "in_water": "2023-07-27 21:38:42 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/lich_tower": {
+    "criteria": {
+      "discover": "2023-08-01 00:09:02 -0300"
     },
     "done": true
   },
@@ -22834,6 +22996,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/fire_beetle": {
+    "criteria": {
+      "hurt_by_indirect": "2023-08-01 00:08:26 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/envi_cherry_rowboat": {
     "criteria": {
       "in_water": "2023-07-27 21:38:42 -0300"
@@ -23700,6 +23868,12 @@
     },
     "done": true
   },
+  "illagers_plus:find_ice_castle": {
+    "criteria": {
+      "fortress": "2023-07-31 22:12:32 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/oak_drakkar": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:59 -0300"
@@ -23921,6 +24095,12 @@
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
     },
     "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2023-08-01 00:22:03 -0300"
+    },
+    "done": false
   },
   "blue_skies:recipes/blue_skies_everdawn_blocks/mossy_lunar_stonebrick": {
     "criteria": {
@@ -24668,6 +24848,12 @@
     },
     "done": true
   },
+  "relics:obtain/lucky_horseshoe": {
+    "criteria": {
+      "obtain_relic": "2023-08-01 00:26:01 -0300"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/depthrock_tile_stairs_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
@@ -25280,6 +25466,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/firefly_forest": {
+    "criteria": {
+      "discover": "2023-08-01 00:04:13 -0300"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/pearl_wide_post_from_pearl_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:59 -0300"
@@ -25472,8 +25664,10 @@
       "minecraft:beach": "2023-07-27 23:16:10 -0300",
       "minecraft:dark_forest": "2023-07-29 22:17:48 -0300",
       "minecraft:river": "2023-07-27 21:59:31 -0300",
+      "minecraft:lukewarm_ocean": "2023-07-31 23:47:03 -0300",
       "minecraft:birch_forest_hills": "2023-07-29 21:51:59 -0300",
       "minecraft:wooded_mountains": "2023-07-29 22:42:08 -0300",
+      "minecraft:wooded_hills": "2023-07-31 23:38:21 -0300",
       "minecraft:giant_tree_taiga_hills": "2023-07-27 23:15:00 -0300",
       "minecraft:swamp": "2023-07-29 21:54:53 -0300",
       "minecraft:savanna": "2023-07-31 12:21:00 -0300",
@@ -26248,6 +26442,12 @@
   "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_bookshelf": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:09 -0300"
+    },
+    "done": true
+  },
+  "usefulhats:recipes/combat/chopping_hat": {
+    "criteria": {
+      "has_rabbit_hide": "2023-07-31 21:58:23 -0300"
     },
     "done": true
   },
@@ -27108,6 +27308,12 @@
   "mysticalworld:recipes/mysticalworld/brown_mushroom_small_post_from_brown_mushroom_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:10 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/major_landmarks/hedge_maze": {
+    "criteria": {
+      "discover": "2023-08-01 00:06:50 -0300"
     },
     "done": true
   },

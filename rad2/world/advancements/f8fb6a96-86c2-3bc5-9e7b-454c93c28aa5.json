@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/materials/etherium_ore": {
+    "criteria": {
+      "generic_revelation": "2023-07-31 22:43:06 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/starlit_fence": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:22:55 -0300"
@@ -4068,6 +4074,7 @@
       "minecraft:silverfish": "2023-07-28 20:06:45 -0300",
       "minecraft:stray": "2023-07-29 05:52:47 -0300",
       "minecraft:enderman": "2023-07-31 00:40:17 -0300",
+      "minecraft:endermite": "2023-07-31 22:31:51 -0300",
       "minecraft:zombie": "2023-07-28 19:18:34 -0300"
     },
     "done": false
@@ -5648,6 +5655,12 @@
   "undergarden:recipes/undergarden_group/wigglewood_wood": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:23:09 -0300"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2023-07-31 22:58:12 -0300"
     },
     "done": true
   },
@@ -14042,6 +14055,12 @@
     },
     "done": true
   },
+  "relics:obtain/wool_mitten": {
+    "criteria": {
+      "obtain_relic": "2023-07-31 21:11:17 -0300"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/bread_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:23:03 -0300"
@@ -17000,6 +17019,12 @@
     },
     "done": true
   },
+  "rad_recipes:mad_mage": {
+    "criteria": {
+      "gust": "2023-07-31 22:53:45 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/smooth_red_sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:23:00 -0300"
@@ -17230,7 +17255,8 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
-      "taiga_village": "2023-07-29 17:12:20 -0300"
+      "taiga_village": "2023-07-29 17:12:20 -0300",
+      "plains_village": "2023-07-31 21:08:45 -0300"
     },
     "done": false
   },
@@ -17618,6 +17644,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "shepherds_pie": "2023-07-31 23:25:24 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_blocks/dream_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:22:56 -0300"
@@ -17837,6 +17869,12 @@
   "mysticalworld:recipes/mysticalworld/terracotta_brick_wall_from_terracotta_brick_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:23:08 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "generic_revelation": "2023-07-31 22:42:55 -0300"
     },
     "done": true
   },
@@ -18317,6 +18355,12 @@
   "blue_skies:recipes/blue_skies_dungeon/glowing_aquatic_stairs_stonecutting_glowing_aquatic_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:23:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2023-07-31 23:30:49 -0300"
     },
     "done": true
   },
@@ -23479,6 +23523,12 @@
   "farmersdelight:recipes/farmersdelight/bacon_sandwich": {
     "criteria": {
       "has_the_recipe": "2023-07-28 00:23:03 -0300"
+    },
+    "done": true
+  },
+  "illagers_plus:find_ice_castle": {
+    "criteria": {
+      "fortress": "2023-07-31 21:25:08 -0300"
     },
     "done": true
   },

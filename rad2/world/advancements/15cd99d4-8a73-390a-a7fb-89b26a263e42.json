@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/materials/etherium_ore": {
+    "criteria": {
+      "generic_revelation": "2023-07-31 22:59:56 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/starlit_fence": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:33 -0300"
@@ -1022,6 +1028,12 @@
   "betterendforge:recipes/betterendforge/violecite_tiles": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2023-07-31 22:50:46 -0300"
     },
     "done": true
   },
@@ -4023,6 +4035,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-07-31 22:35:33 -0300",
       "minecraft:skeleton": "2023-07-27 22:01:11 -0300",
       "minecraft:spider": "2023-07-27 22:36:30 -0300",
       "minecraft:creeper": "2023-07-30 23:58:28 -0300",
@@ -4115,6 +4128,12 @@
   "blue_skies:recipes/blue_skies_everbright_blocks/polished_taratite": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-07-31 22:39:43 -0300"
     },
     "done": true
   },
@@ -4511,6 +4530,12 @@
   "betterendforge:recipes/betterendforge/terminite_helmet": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/mysticalworld/stone_knife_from_stone": {
+    "criteria": {
+      "has_stone": "2023-07-31 23:15:07 -0300"
     },
     "done": true
   },
@@ -5412,6 +5437,12 @@
   "betterendforge:recipes/betterendforge/mossy_glowshroom_ladder": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:37 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2023-07-31 22:49:46 -0300"
     },
     "done": true
   },
@@ -7586,6 +7617,12 @@
     "criteria": {
       "has_parent_recipe": "2023-07-27 21:44:37 -0300",
       "has_the_recipe": "2023-07-27 21:44:38 -0300"
+    },
+    "done": true
+  },
+  "valhelsia_structures:recipes/valhelsia_structures_main/acacia_post": {
+    "criteria": {
+      "has_item": "2023-07-31 23:22:46 -0300"
     },
     "done": true
   },
@@ -9782,6 +9819,12 @@
     },
     "done": true
   },
+  "relics:obtain/holy_locket": {
+    "criteria": {
+      "obtain_relic": "2023-07-31 22:54:34 -0300"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/mushroom_inside_wall_from_mushroom_inside_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:34 -0300"
@@ -9949,6 +9992,12 @@
       "has_the_recipe": "2023-07-27 21:44:36 -0300"
     },
     "done": true
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_oak": "2023-07-31 22:25:02 -0300"
+    },
+    "done": false
   },
   "betterendforge:recipes/misc/stick_from_needlegrass": {
     "criteria": {
@@ -14794,6 +14843,12 @@
     },
     "done": true
   },
+  "mysticalworld:sapphire": {
+    "criteria": {
+      "book": "2023-07-31 23:44:32 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/lime_beach_float": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:35 -0300"
@@ -16816,6 +16871,12 @@
     },
     "done": true
   },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2023-07-31 22:59:25 -0300"
+    },
+    "done": true
+  },
   "tropicraft:recipes/tropicraft/pink_scuba_harness": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:36 -0300"
@@ -16875,6 +16936,12 @@
       "has_the_recipe": "2023-07-27 21:44:37 -0300"
     },
     "done": true
+  },
+  "rad_recipes:mad_mage": {
+    "criteria": {
+      "gust": "2023-07-31 22:32:26 -0300"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/smooth_red_sandstone_slab": {
     "criteria": {
@@ -17713,6 +17780,12 @@
   "mysticalworld:recipes/mysticalworld/terracotta_brick_wall_from_terracotta_brick_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:38 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "generic_revelation": "2023-07-31 22:59:54 -0300"
     },
     "done": true
   },
@@ -24609,6 +24682,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/fish_and_chips": {
+    "criteria": {
+      "has_cooked_seafood": "2023-07-31 22:39:40 -0300"
+    },
+    "done": true
+  },
   "aquaculture:recipes/combat/neptunium_boots": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:36 -0300"
@@ -25152,6 +25231,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2023-07-31 22:26:09 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/polished_taratite_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:36 -0300"
@@ -25620,6 +25705,7 @@
       "baked_potato": "2023-07-27 22:36:21 -0300",
       "beef": "2023-07-30 21:54:24 -0300",
       "mutton": "2023-07-30 21:55:22 -0300",
+      "cookie": "2023-07-31 22:31:20 -0300",
       "upgrade_aquatic:mulberry": "2023-07-30 21:21:56 -0300",
       "cooked_mutton": "2023-07-30 21:07:06 -0300",
       "sweet_berries": "2023-07-30 21:34:42 -0300",

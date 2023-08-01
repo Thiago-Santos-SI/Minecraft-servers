@@ -4790,6 +4790,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/fiery_blood_tears": {
+    "criteria": {
+      "tools": "2023-07-31 23:33:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_red_sandstone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:34 -0300"
@@ -6446,6 +6452,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/spear_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:38 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/armors": {
+    "criteria": {
+      "3": "2023-07-31 23:33:21 -0300"
     },
     "done": true
   },
@@ -8245,6 +8257,12 @@
     },
     "done": false
   },
+  "twilightforest:alt/treasures/fiery_armor_set": {
+    "criteria": {
+      "ingredien3": "2023-07-31 23:33:21 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/misc/orange_dye_from_blaze_bud": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:38 -0300"
@@ -8406,6 +8424,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2023-07-31 23:11:25 -0300"
     },
     "done": true
   },
@@ -15019,6 +15043,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/fiery_tool_set": {
+    "criteria": {
+      "ingredien3": "2023-07-31 23:33:21 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/polished_brumble_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
@@ -17029,7 +17059,8 @@
       "bounce": "2023-07-28 23:18:57 -0300",
       "amplify": "2023-07-29 20:55:42 -0300",
       "speed": "2023-07-29 00:22:36 -0300",
-      "leap": "2023-07-29 20:41:57 -0300"
+      "leap": "2023-07-29 20:41:57 -0300",
+      "gust": "2023-07-31 23:17:51 -0300"
     },
     "done": false
   },
@@ -24867,6 +24898,12 @@
     },
     "done": true
   },
+  "mysticalworld:recipes/mysticalworld/fish_and_chips": {
+    "criteria": {
+      "has_cooked_seafood": "2023-07-31 23:28:51 -0300"
+    },
+    "done": true
+  },
   "aquaculture:recipes/combat/neptunium_boots": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:38 -0300"
@@ -25542,6 +25579,13 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/tools": {
+    "criteria": {
+      "2": "2023-07-31 23:33:21 -0300",
+      "3": "2023-07-31 23:33:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:36 -0300"
@@ -25927,6 +25971,7 @@
       "suspicious_stew": "2023-07-30 17:33:19 -0300",
       "mushroom_stew": "2023-07-27 22:16:38 -0300",
       "cooked_mutton": "2023-07-27 22:46:44 -0300",
+      "apple": "2023-07-31 23:06:11 -0300",
       "potato": "2023-07-27 21:50:27 -0300",
       "pumpkin_pie": "2023-07-27 22:47:04 -0300",
       "bread": "2023-07-27 22:48:54 -0300",

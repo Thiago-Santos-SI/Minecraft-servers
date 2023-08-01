@@ -2,9 +2,7 @@
 	id: "15cd99d4-8a73-390a-a7fb-89b26a263e42"
 	type: "player"
 	player_name: "Jorgevvs"
-	ranks: {
-		15cd99d4-8a73-390a-a7fb-89b26a263e42: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Jorgevvs"
 		"ftbteams:color": "#FFA959"
@@ -13,6 +11,6 @@
 	}
 	message_history: [ ]
 	extra: {
-		Money: 455L
+		Money: 2775L
 	}
 }

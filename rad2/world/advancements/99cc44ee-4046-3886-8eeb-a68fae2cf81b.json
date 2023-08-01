@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/materials/etherium_ore": {
+    "criteria": {
+      "generic_revelation": "2023-07-31 20:47:05 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/starlit_fence": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:22 -0300"
@@ -4096,6 +4102,7 @@
       "minecraft:cave_spider": "2023-07-28 22:14:21 -0300",
       "minecraft:silverfish": "2023-07-27 22:53:27 -0300",
       "minecraft:enderman": "2023-07-30 00:31:56 -0300",
+      "minecraft:stray": "2023-07-31 22:13:03 -0300",
       "minecraft:zombie": "2023-07-27 22:53:11 -0300"
     },
     "done": false
@@ -6873,6 +6880,12 @@
   "farmersdelight:recipes/farmersdelight/cooked_mutton_chops_from_campfire_cooking": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
+    },
+    "done": true
+  },
+  "relics:obtain/horse_flute": {
+    "criteria": {
+      "obtain_relic": "2023-07-31 22:09:20 -0300"
     },
     "done": true
   },
@@ -17070,6 +17083,13 @@
     },
     "done": true
   },
+  "rad_recipes:mad_mage": {
+    "criteria": {
+      "break": "2023-07-31 21:03:45 -0300",
+      "magelight": "2023-07-31 21:04:29 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/smooth_red_sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
@@ -17312,7 +17332,8 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
-      "taiga_village": "2023-07-30 00:19:28 -0300"
+      "taiga_village": "2023-07-30 00:19:28 -0300",
+      "plains_village": "2023-07-31 22:05:58 -0300"
     },
     "done": false
   },
@@ -23593,6 +23614,12 @@
   "farmersdelight:recipes/farmersdelight/bacon_sandwich": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:21 -0300"
+    },
+    "done": true
+  },
+  "illagers_plus:find_ice_castle": {
+    "criteria": {
+      "fortress": "2023-07-31 22:12:17 -0300"
     },
     "done": true
   },
