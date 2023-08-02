@@ -3718,6 +3718,7 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_tower_of_the_undead": "2023-07-30 01:11:10 -0300",
+      "entered_pillager_camp": "2023-08-01 21:11:42 -0300",
       "entered_large_dungeon": "2023-07-27 23:30:00 -0300",
       "entered_castle": "2023-07-30 17:11:13 -0300",
       "entered_watch_tower": "2023-07-29 22:07:03 -0300",
@@ -5490,6 +5491,12 @@
   "betterendforge:recipes/betterendforge/mossy_glowshroom_ladder": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:39 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2023-08-01 21:58:25 -0300"
     },
     "done": true
   },
@@ -7653,6 +7660,12 @@
   "supplementaries:recipes/flute": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:37 -0300"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld/gold_spear": {
+    "criteria": {
+      "has_golden_sword": "2023-08-01 21:00:05 -0300"
     },
     "done": true
   },
@@ -10103,6 +10116,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_cika": {
+    "criteria": {
+      "has_plank": "2023-08-01 21:17:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:33 -0300"
@@ -11069,6 +11088,12 @@
     },
     "done": true
   },
+  "relics:obtain/squire_bag": {
+    "criteria": {
+      "obtain_relic": "2023-08-01 21:42:07 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
@@ -11222,6 +11247,12 @@
   "farmersdelight:recipes/farmersdelight/light_gray_canvas_sign": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:35 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hanging_sign_cika": {
+    "criteria": {
+      "has_plank": "2023-08-01 21:17:21 -0300"
     },
     "done": true
   },
@@ -13717,6 +13748,12 @@
     },
     "done": true
   },
+  "morevillagers:first_workstation_get": {
+    "criteria": {
+      "barrel": "2023-08-01 22:58:47 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/lucernia_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:34 -0300"
@@ -14062,6 +14099,12 @@
   "farmersdelight:recipes/farmersdelight/black_canvas_sign": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:40 -0300"
+    },
+    "done": true
+  },
+  "relics:obtain/wool_mitten": {
+    "criteria": {
+      "obtain_relic": "2023-08-01 21:42:07 -0300"
     },
     "done": true
   },
@@ -16195,6 +16238,12 @@
     },
     "done": true
   },
+  "morevillagers:all_workstations_get": {
+    "criteria": {
+      "barrel": "2023-08-01 22:58:47 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/slime_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:35 -0300"
@@ -17913,6 +17962,12 @@
   "mysticalworld:recipes/mysticalworld/terracotta_brick_wall_from_terracotta_brick_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:40 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "generic_revelation": "2023-08-01 21:00:07 -0300"
     },
     "done": true
   },
@@ -23536,6 +23591,12 @@
     },
     "done": true
   },
+  "spartanweaponry:lance": {
+    "criteria": {
+      "has_lance": "2023-08-01 20:47:48 -0300"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/quarterstaff_iron": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:36 -0300"
@@ -26133,6 +26194,12 @@
   "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_bookshelf": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:43:41 -0300"
+    },
+    "done": true
+  },
+  "usefulhats:recipes/combat/chopping_hat": {
+    "criteria": {
+      "has_rabbit_hide": "2023-08-01 22:10:49 -0300"
     },
     "done": true
   },

@@ -2185,6 +2185,12 @@
     },
     "done": true
   },
+  "spartanweaponry:scythe": {
+    "criteria": {
+      "has_scythe": "2023-08-01 20:51:33 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:03 -0300"
@@ -4136,6 +4142,7 @@
       "minecraft:blaze": "2023-07-31 11:15:25 -0300",
       "minecraft:skeleton": "2023-07-27 21:38:58 -0300",
       "minecraft:ravager": "2023-07-30 00:10:08 -0300",
+      "minecraft:ghast": "2023-08-02 00:14:58 -0300",
       "minecraft:vindicator": "2023-07-30 00:07:01 -0300",
       "minecraft:magma_cube": "2023-07-31 11:57:15 -0300",
       "minecraft:spider": "2023-07-27 22:21:59 -0300",
@@ -4463,6 +4470,12 @@
   "spartanweaponry:recipes/spartanweaponry.modded/lance_copper": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hanging_sign_crimson": {
+    "criteria": {
+      "has_plank": "2023-08-02 00:26:21 -0300"
     },
     "done": true
   },
@@ -5220,6 +5233,12 @@
   "minecraft:recipes/building_blocks/yellow_terracotta": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:58 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/consume_soul": {
+    "criteria": {
+      "coded_trigger": "2023-08-01 22:43:56 -0300"
     },
     "done": true
   },
@@ -7638,6 +7657,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_decorative_grave": {
+    "criteria": {
+      "has_decorative_grave": "2023-08-02 00:01:21 -0300"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/dagger_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:00 -0300"
@@ -8433,6 +8458,12 @@
     },
     "done": true
   },
+  "buddycards:main/complete_set7": {
+    "criteria": {
+      "card4": "2023-08-01 22:06:35 -0300"
+    },
+    "done": false
+  },
   "decorative_blocks_abnormals:recipes/jacaranda_beam": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:58 -0300"
@@ -9150,6 +9181,12 @@
   "undergarden:recipes/undergarden_group/utheric_shovel": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:04 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_crimson": {
+    "criteria": {
+      "has_plank": "2023-08-02 00:26:21 -0300"
     },
     "done": true
   },
@@ -15883,6 +15920,12 @@
     },
     "done": true
   },
+  "infernalexp:recipes/food/blindsight_tounge_stew": {
+    "criteria": {
+      "has_warped_fungus": "2023-08-02 00:22:20 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/aeternium_sword_smithing": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:28:59 -0300"
@@ -15964,6 +16007,12 @@
   "blue_skies:recipes/blue_skies_everbright_blocks/turquoise_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:10 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_disenchantment": {
+    "criteria": {
+      "coded_trigger": "2023-08-01 22:43:56 -0300"
     },
     "done": true
   },
@@ -16149,7 +16198,9 @@
   },
   "spartanweaponry:collect_heads": {
     "criteria": {
-      "wither_skeleton_skull": "2023-07-31 11:44:10 -0300"
+      "zombie_head": "2023-08-01 21:07:23 -0300",
+      "wither_skeleton_skull": "2023-07-31 11:44:10 -0300",
+      "spider_head": "2023-08-01 21:09:06 -0300"
     },
     "done": false
   },
@@ -17306,12 +17357,15 @@
       "freeze": "2023-07-31 14:11:18 -0300",
       "summon_steed": "2023-07-28 23:09:57 -0300",
       "area_of_effect": "2023-07-31 13:20:42 -0300",
+      "touch": "2023-08-01 22:17:09 -0300",
       "ray": "2023-07-29 00:27:24 -0300",
+      "invisibility": "2023-08-01 22:22:21 -0300",
       "shield": "2023-07-31 21:51:38 -0300",
       "amplify": "2023-07-28 23:02:46 -0300",
       "speed": "2023-07-29 23:15:39 -0300",
       "amplify_two": "2023-07-31 13:50:11 -0300",
       "extend_time": "2023-07-31 21:53:02 -0300",
+      "mageblock": "2023-08-01 22:22:09 -0300",
       "heal": "2023-07-31 21:50:42 -0300",
       "leap": "2023-07-29 18:39:15 -0300",
       "break": "2023-07-30 23:52:17 -0300",
@@ -17319,6 +17373,7 @@
       "ender_inventory": "2023-07-31 21:42:06 -0300",
       "gravity": "2023-07-31 22:01:36 -0300",
       "magelight": "2023-07-28 21:41:54 -0300",
+      "lay_on_hands": "2023-08-01 22:21:54 -0300",
       "gust": "2023-07-28 22:29:35 -0300"
     },
     "done": false
@@ -18435,15 +18490,15 @@
     },
     "done": true
   },
-  "twilightforest:alt/entities/lich": {
-    "criteria": {
-      "hurt": "2023-08-01 00:21:58 -0300"
-    },
-    "done": true
-  },
   "dungeons_arise:find_fishing_hut": {
     "criteria": {
       "location0": "2023-07-31 23:57:40 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/lich": {
+    "criteria": {
+      "hurt": "2023-08-01 00:21:58 -0300"
     },
     "done": true
   },
@@ -19503,6 +19558,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/rotten_egg": {
+    "criteria": {
+      "bestiary": "2023-08-01 20:48:01 -0300"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/full_red_mushroom_block_from_red_mushroom": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:07 -0300"
@@ -19824,6 +19885,12 @@
   "undergarden:recipes/undergarden_group/smelt_underbeans": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_decorative_grave": {
+    "criteria": {
+      "has_ingredient": "2023-08-02 00:01:21 -0300"
     },
     "done": true
   },
@@ -21325,6 +21392,12 @@
   "good_nights_sleep:recipes/gns_blocks/delusion_stonebrick_stairs_stonecutting_delusion_stonebrick": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:07 -0300"
+    },
+    "done": true
+  },
+  "valhelsia_structures:recipes/valhelsia_structures_main/crimson_post": {
+    "criteria": {
+      "has_item": "2023-08-02 00:26:07 -0300"
     },
     "done": true
   },
@@ -23841,6 +23914,12 @@
   "comforts:sleeping_bag_red_from_white": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:08 -0300"
+    },
+    "done": true
+  },
+  "spartanweaponry:lance": {
+    "criteria": {
+      "has_lance": "2023-08-01 20:46:42 -0300"
     },
     "done": true
   },
@@ -26844,6 +26923,12 @@
   "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:29:01 -0300"
+    },
+    "done": true
+  },
+  "rats:rats/rat_trap": {
+    "criteria": {
+      "iron_pickaxe": "2023-08-01 22:33:58 -0300"
     },
     "done": true
   },

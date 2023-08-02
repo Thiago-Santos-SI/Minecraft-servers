@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/dense_twilight_forest": {
+    "criteria": {
+      "discover": "2023-08-01 21:57:52 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/missing_tile": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:33 -0300"
@@ -4257,6 +4263,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/naga_courtyard": {
+    "criteria": {
+      "discover": "2023-08-01 21:57:52 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/polished_brumble_brick_stairs": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:37 -0300"
@@ -5368,6 +5380,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "4": "2023-08-01 21:57:52 -0300"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_misc/diopside_gem_from_smelting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:39 -0300"
@@ -5958,7 +5976,8 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "sweet_berries": "2023-07-30 21:58:10 -0300"
+      "sweet_berries": "2023-07-30 21:58:10 -0300",
+      "wheat": "2023-08-01 22:07:44 -0300"
     },
     "done": false
   },
@@ -7802,6 +7821,7 @@
   },
   "simplefarming:crops": {
     "criteria": {
+      "yam": "2023-08-01 22:07:47 -0300",
       "pea_pod": "2023-07-30 21:56:05 -0300"
     },
     "done": false
@@ -16099,6 +16119,7 @@
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
+      "blastfurnace": "2023-08-01 21:28:06 -0300",
       "cauldron": "2023-07-27 22:35:48 -0300"
     },
     "done": false
@@ -18269,6 +18290,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2023-08-01 21:36:40 -0300"
+    },
+    "done": true
+  },
   "good_nights_sleep:recipes/gns_armor/zitrite_chestplate": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:35 -0300"
@@ -19474,6 +19501,12 @@
       "has_the_recipe": "2023-07-27 21:44:39 -0300"
     },
     "done": true
+  },
+  "morevillagers:map_bastion": {
+    "criteria": {
+      "hasmap": "2023-08-01 21:34:55 -0300"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/purple_banner": {
     "criteria": {
@@ -24910,6 +24943,12 @@
     },
     "done": true
   },
+  "morevillagers:map_endcity": {
+    "criteria": {
+      "hasmap": "2023-08-01 21:34:55 -0300"
+    },
+    "done": false
+  },
   "decorative_winter:recipes/decorative_blocks/frosty_wand": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:38 -0300"
@@ -25150,6 +25189,12 @@
   "mcwbridges:recipes/dark_oak_rail_bridge": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-08-01 22:07:44 -0300"
     },
     "done": true
   },
@@ -25717,6 +25762,7 @@
       "golden_apple": "2023-07-28 00:15:21 -0300",
       "rotten_flesh": "2023-07-28 00:41:15 -0300",
       "golden_carrot": "2023-07-30 20:35:32 -0300",
+      "cooked_salmon": "2023-08-01 21:45:50 -0300",
       "carrot": "2023-07-30 21:46:16 -0300"
     },
     "done": false
@@ -25994,6 +26040,12 @@
   "betterendforge:recipes/betterendforge/umbralith_bricks_slab_from_umbralith_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:44:33 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2023-08-01 21:31:46 -0300"
     },
     "done": true
   },
@@ -26740,6 +26792,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2023-07-27 21:51:01 -0300"
+    },
+    "done": true
+  },
+  "dungeons_plus:adventure/find_bigger_dungeon": {
+    "criteria": {
+      "structure": "2023-08-01 21:33:01 -0300"
     },
     "done": true
   },

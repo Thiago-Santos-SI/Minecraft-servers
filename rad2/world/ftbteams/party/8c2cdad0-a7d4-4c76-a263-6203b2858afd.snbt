@@ -30,6 +30,9 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1690848612669L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"He_enry\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
 		{ from: "57b4cf09-7d00-39c3-b844-d4004ab31cba", date: 1690854753148L, text: "{\"color\":\"green\",\"text\":\"Invited just_ken\"}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1690854757855L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"just_ken\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "57b4cf09-7d00-39c3-b844-d4004ab31cba", date: 1690941531936L, text: "{\"color\":\"red\",\"extra\":[{\"color\":\"yellow\",\"text\":\"IDYonix\"},{\"text\":\" from \"},{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info Ossafados#8c2cdad0\"},\"text\":\"Os safados\"}],\"text\":\"Kicked \"}" }
+		{ from: "57b4cf09-7d00-39c3-b844-d4004ab31cba", date: 1690941623644L, text: "{\"color\":\"green\",\"text\":\"Invited IDYonix\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1690941631532L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"IDYonix\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
 	]
 	extra: { }
 }

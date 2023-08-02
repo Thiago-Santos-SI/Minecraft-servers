@@ -1,0 +1,16 @@
+{
+	id: "11140683-f68a-3304-bc97-3d30aef6ae6f"
+	type: "player"
+	player_name: "Karen"
+	ranks: {
+		11140683-f68a-3304-bc97-3d30aef6ae6f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Karen"
+		"ftbteams:color": "#59FF7F"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

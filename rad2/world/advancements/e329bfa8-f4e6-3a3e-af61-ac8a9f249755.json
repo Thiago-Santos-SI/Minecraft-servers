@@ -1583,6 +1583,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-08-02 00:09:23 -0300"
+    },
+    "done": false
+  },
   "aquaculture:recipes/decorations/birch_fish_mount": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:58 -0300"
@@ -3015,6 +3021,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-08-02 00:16:07 -0300"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/acacia_drawers": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:01 -0300"
@@ -3782,6 +3794,7 @@
     "criteria": {
       "entered_pillager_camp": "2023-07-31 00:56:15 -0300",
       "entered_desert_temple": "2023-07-31 14:32:59 -0300",
+      "entered_watch_tower": "2023-08-01 23:21:00 -0300",
       "entered_ruined_building": "2023-07-27 21:28:02 -0300",
       "entered_witch_tower": "2023-07-30 15:05:30 -0300"
     },
@@ -4144,15 +4157,19 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-07-30 14:49:30 -0300",
+      "minecraft:blaze": "2023-08-02 00:07:35 -0300",
       "minecraft:skeleton": "2023-07-27 21:37:57 -0300",
+      "minecraft:ghast": "2023-08-02 00:11:33 -0300",
       "minecraft:vindicator": "2023-07-31 01:55:51 -0300",
       "minecraft:magma_cube": "2023-07-27 21:54:53 -0300",
       "minecraft:spider": "2023-07-27 21:39:51 -0300",
       "minecraft:creeper": "2023-07-27 22:23:41 -0300",
+      "minecraft:slime": "2023-08-02 00:05:36 -0300",
       "minecraft:witch": "2023-07-31 14:00:18 -0300",
       "minecraft:wither_skeleton": "2023-07-28 00:27:19 -0300",
       "minecraft:husk": "2023-07-31 14:33:26 -0300",
       "minecraft:cave_spider": "2023-07-27 23:59:19 -0300",
+      "minecraft:piglin": "2023-08-02 00:11:08 -0300",
       "minecraft:silverfish": "2023-07-27 23:22:57 -0300",
       "minecraft:stray": "2023-07-27 23:39:15 -0300",
       "minecraft:enderman": "2023-08-01 00:32:58 -0300",
@@ -5329,6 +5346,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:59 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hanging_sign_sythian": {
+    "criteria": {
+      "has_plank": "2023-08-02 00:19:32 -0300"
     },
     "done": true
   },
@@ -9372,6 +9395,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_fir": {
+    "criteria": {
+      "has_plank": "2023-08-01 23:16:24 -0300"
+    },
+    "done": true
+  },
   "aquaculture:recipes/aquaculture/neptunes_bounty": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:04 -0300"
@@ -9844,6 +9873,12 @@
   "farmersdelight:recipes/farmersdelight/honey_cookie": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:00 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/magic_siphoner": {
+    "criteria": {
+      "coded_trigger": "2023-08-01 23:58:33 -0300"
     },
     "done": true
   },
@@ -11300,6 +11335,12 @@
     },
     "done": true
   },
+  "relics:obtain/squire_bag": {
+    "criteria": {
+      "obtain_relic": "2023-08-01 23:18:56 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:04 -0300"
@@ -11369,6 +11410,12 @@
   "floormats:recipes/connected/connected_iron_block": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:59 -0300"
+    },
+    "done": true
+  },
+  "rats:rats/trash_can": {
+    "criteria": {
+      "trash_can": "2023-08-01 23:43:19 -0300"
     },
     "done": true
   },
@@ -13134,6 +13181,12 @@
   "betterendforge:recipes/betterendforge/sulphuric_rock_slab_from_sulphuric_rock_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-08-02 00:07:18 -0300"
     },
     "done": true
   },
@@ -16402,6 +16455,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-08-02 00:05:31 -0300"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/cactus_shovel": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:04 -0300"
@@ -16484,7 +16543,8 @@
     "criteria": {
       "brewingstand": "2023-07-30 15:06:54 -0300",
       "smithingtable": "2023-07-30 13:17:03 -0300",
-      "blastfurnace": "2023-07-31 22:01:03 -0300"
+      "blastfurnace": "2023-07-31 22:01:03 -0300",
+      "cauldron": "2023-08-01 23:43:19 -0300"
     },
     "done": false
   },
@@ -16641,6 +16701,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:00 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_sythian": {
+    "criteria": {
+      "has_plank": "2023-08-02 00:19:32 -0300"
     },
     "done": true
   },
@@ -17590,6 +17656,7 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
+      "taiga_village": "2023-08-01 23:18:40 -0300",
       "plains_village": "2023-07-31 22:08:48 -0300"
     },
     "done": false
@@ -22317,6 +22384,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_fir": {
+    "criteria": {
+      "has_plank": "2023-08-01 23:16:24 -0300"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.modded/pike_copper": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:57 -0300"
@@ -22692,6 +22765,12 @@
   "tropicraft:recipes/tropicraft/thatch_door": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:26:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-08-02 00:05:31 -0300"
     },
     "done": true
   },
@@ -25749,6 +25828,7 @@
       "minecraft:desert": "2023-07-31 14:00:42 -0300",
       "minecraft:birch_forest": "2023-07-27 21:27:37 -0300",
       "minecraft:savanna_plateau": "2023-07-31 14:19:01 -0300",
+      "minecraft:dark_forest": "2023-08-01 23:11:35 -0300",
       "minecraft:river": "2023-07-27 21:58:35 -0300",
       "minecraft:birch_forest_hills": "2023-07-29 02:05:14 -0300",
       "minecraft:wooded_mountains": "2023-07-30 14:48:50 -0300",
@@ -26768,6 +26848,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/spear_iron": {
     "criteria": {
       "has_the_recipe": "2023-07-27 21:27:02 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/discreet_search": {
+    "criteria": {
+      "coded_trigger": "2023-08-01 22:25:29 -0300"
     },
     "done": true
   },

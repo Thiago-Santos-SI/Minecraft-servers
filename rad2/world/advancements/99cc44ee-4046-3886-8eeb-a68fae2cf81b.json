@@ -1577,6 +1577,13 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-08-02 00:32:34 -0300",
+      "minecraft:basalt_deltas": "2023-08-02 00:17:55 -0300"
+    },
+    "done": false
+  },
   "aquaculture:recipes/decorations/birch_fish_mount": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:23 -0300"
@@ -2153,6 +2160,12 @@
   "blue_skies:recipes/blue_skies_dungeon/blinding_stairs_stonecutting_blinding_stone": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:27 -0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/haste_potion": {
+    "criteria": {
+      "has_items": "2023-08-01 21:39:15 -0300"
     },
     "done": true
   },
@@ -3483,6 +3496,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2023-08-01 23:56:01 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/jellyshroom_chest": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:25 -0300"
@@ -4098,6 +4117,7 @@
       "minecraft:skeleton": "2023-07-27 22:38:42 -0300",
       "minecraft:spider": "2023-07-28 20:08:55 -0300",
       "minecraft:creeper": "2023-07-29 15:36:36 -0300",
+      "minecraft:zombified_piglin": "2023-08-02 00:16:55 -0300",
       "minecraft:witch": "2023-07-27 23:41:03 -0300",
       "minecraft:cave_spider": "2023-07-28 22:14:21 -0300",
       "minecraft:silverfish": "2023-07-27 22:53:27 -0300",
@@ -10295,6 +10315,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/checker_block": {
+    "criteria": {
+      "has_plank": "2023-08-02 00:19:20 -0300"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_lairelosse_brigg": {
     "criteria": {
       "in_water": "2023-07-27 22:21:10 -0300"
@@ -16156,6 +16182,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-08-02 00:05:31 -0300"
     },
     "done": true
   },
@@ -22390,6 +22422,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-08-02 00:05:31 -0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/dragon_tree_bookshelf": {
     "criteria": {
       "has_the_recipe": "2023-07-27 22:15:20 -0300"
@@ -26013,6 +26051,7 @@
       "baked_potato": "2023-07-29 00:51:00 -0300",
       "suspicious_stew": "2023-07-27 23:33:42 -0300",
       "cookie": "2023-07-28 20:04:09 -0300",
+      "upgrade_aquatic:mulberry": "2023-08-01 21:31:12 -0300",
       "cooked_mutton": "2023-07-27 23:53:06 -0300",
       "apple": "2023-07-27 23:04:37 -0300",
       "potato": "2023-07-28 20:19:13 -0300",
