@@ -1,0 +1,17 @@
+{
+	id: "57b4cf09-7d00-39c3-b844-d4004ab31cba"
+	type: "player"
+	player_name: "PapelRasgado"
+	ranks: {
+		57b4cf09-7d00-39c3-b844-d4004ab31cba: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "PapelRasgado"
+		"ftbteams:description": ""
+		"ftbteams:color": "#598AFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,380 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "7539C31213D86E55"
+	images: [
+		{
+			click: ""
+			color: 16756505
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "prominent:textures/text/welcome.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.999999999999993d
+			y: 3.017358514086254d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/the_basics.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/storage.png"
+			rotation: 0.0d
+			width: 2.504166666666667d
+			x: 3.698735119047612d
+			y: -4.367346938775512d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "prominent:textures/other/prominent-logo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "prominent:textures/text/welcome.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			color: 11250603
+			corner: false
+			dev: false
+			height: 7.311518324607329d
+			hover: [ ]
+			image: "prominent:textures/text/prominence-desc.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: 2.0d
+			y: -6.0d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "1DD302BB650057E3"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eStart your journey in Prominence!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "7B701D980200A661"
+				title: "Enter the Overworld"
+				type: "dimension"
+			}]
+			title: "&aFirst Steps"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD302BB650057E3"]
+			description: [""]
+			icon: "ftbquests:book"
+			id: "6E9F5146EA3F505F"
+			rewards: [{
+				id: "78B218622FE5FA2B"
+				type: "xp"
+				xp: 7
+			}]
+			subtitle: "&eQuesting is an important part of Prominence&f, as it helps as a guide, while at the same time being rewarding when completing them. &6&lClick in this quest to see its tasks."
+			tasks: [{
+				id: "7CA96A3F8DC932AA"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Make a Stone Pickaxe!"
+				type: "item"
+			}]
+			title: "&lStarting on:&r &aQuesting!"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			id: "52C0EB35542648C6"
+			rewards: [{
+				id: "0B05EBD6244097D1"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Mine some copper and use the &eBlank Chest Upgrade&r to make a copper upgrade for your chests!"
+			tasks: [{
+				id: "1C2CEDE48DF1D506"
+				item: "ironchests:copper_chest_upgrade"
+				type: "item"
+			}]
+			title: "&e&lUpgrading:&f Chests"
+			x: 3.106898384353727d
+			y: -3.551020408163268d
+		}
+		{
+			dependencies: ["6E9F5146EA3F505F"]
+			icon: "minecraft:filled_map"
+			id: "33961F7EE650AA60"
+			subtitle: "&eAt the left side of the screen&r, you can see all Quest Chapters. Each chapter has a different set of quests that fit into that theme."
+			tasks: [{
+				id: "6E754EF86972872E"
+				title: "Click here!"
+				type: "checkmark"
+			}]
+			title: "&f&lStarting on: &r&aChapters!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			id: "2BE6B7EC6F6CC58B"
+			rewards: [{
+				id: "578E739C5F5BB9AC"
+				item: "ironchests:blank_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "&eMake a chest&r, gotta save your belongings!"
+			tasks: [{
+				id: "17209749B99F5873"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "&bSaving Stuff!"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BE6B7EC6F6CC58B"]
+			id: "702ED6D1B159048D"
+			rewards: [
+				{
+					id: "1B6906B1C1859140"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4609580454F92FB2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7B3EEE9FB4C98D43"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "&eNot everyone likes bases. &rThat's why backpacks exist. You can open them pressing &aB&r, and they will give you a fairly big inventory!"
+			tasks: [{
+				id: "275956A92E973AF2"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&e&lUpgrading:&f Inventory"
+			x: 4.332209289965981d
+			y: -3.554421768707485d
+		}
+		{
+			dependencies: ["33961F7EE650AA60"]
+			description: [
+				"Press &a[M]&r to open the &eWorld Map&r."
+				""
+				"To &eClaim a zone&r, you simply need to right click on top of a chunk, and select &eClaim Selected&r."
+				""
+				"&cBeware!&f Every server has its own chunk limit set. Meaning you will have a claim limit depending on where you are playing."
+			]
+			icon: "twilightforest:filled_ore_map"
+			id: "723951CD2A49AEB7"
+			rewards: [{
+				id: "130FE58DD2BBD7D8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "If you are playing a multiplayer server, you might be worried about your stuff. &6Click to see how to claim land!"
+			tasks: [{
+				id: "1BC73062E2DC9CB8"
+				title: "Click to continue!"
+				type: "checkmark"
+			}]
+			title: "&e&lMultiplayer: &dClaiming!"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["52C0EB35542648C6"]
+			description: [
+				"&e&lThe Basic Storage Tier&r"
+				""
+				"&fI. &7Wooden Chest "
+				"&eII. &7Copper"
+				"&eIII. &7Iron"
+				"&6IV. &7Gold"
+				"&6V. &7Diamond"
+				"&dVI. &7Crystal / Obsidian"
+				"&dVII. &7Netherite"
+			]
+			id: "3A6A7B7C4328F378"
+			rewards: [{
+				id: "36032D5AA72AFED1"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "&6Click here to see the tiers!"
+			tasks: [{
+				id: "3CBE9FB0BEF7B2AD"
+				item: "ironchests:iron_chest_upgrade"
+				type: "item"
+			}]
+			title: "&eKeep Upgrading!"
+			x: 3.0892113095238045d
+			y: -2.4829931972789154d
+		}
+		{
+			dependencies: ["002FC90E5914D9C2"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/prominent-logo.png"
+				}
+			}
+			id: "2F5A3E304ABAADF6"
+			rewards: [{
+				id: "54B03266125ECBF0"
+				item: "prominent:music_disc_coniferus_forest"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&eContinue your journey through the other Chapters!"
+			tasks: [{
+				id: "721111D6BBD02194"
+				title: "Click here to continue!"
+				type: "checkmark"
+			}]
+			title: "&6&lWelcome to Prominence!"
+			x: 3.7142857142857295d
+			y: 0.4399775617053123d
+		}
+		{
+			dependencies: ["702ED6D1B159048D"]
+			description: [
+				"&e&lThe Basic Backpack Tier&r"
+				""
+				"&7There are countless tiers for every vanilla material to upgrade your backpack from."
+				""
+				""
+			]
+			id: "6F68A76945194941"
+			rewards: [{
+				id: "609558787DCD989F"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "&6Click here to see the tiers!"
+			tasks: [{
+				id: "0ADB35BE8D6D8491"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&eKeep Upgrading!"
+			x: 4.291392963435364d
+			y: -2.493197278911566d
+		}
+		{
+			dependencies: [
+				"6F68A76945194941"
+				"3A6A7B7C4328F378"
+			]
+			id: "002FC90E5914D9C2"
+			rewards: [{
+				id: "292AF120CABDCBE9"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			subtitle: "The easiest way to teleport between locations is to use &eWaystones&r. They are usually found on villages, but you can also craft them and add them to any place."
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "4EADCFB242160D36"
+				observe_type: 0
+				timer: 0L
+				title: "Use a Waystone"
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			title: "&f&lThe Basics: &dTeleporting"
+			x: 3.7142857142857295d
+			y: -1.024308152580403d
+		}
+		{
+			dependencies: ["6E9F5146EA3F505F"]
+			description: [
+				"&fTo open the skill tree"
+				"&ePress the \"k\" key"
+				""
+				"To level up, you will need to &aspend experience levels"
+			]
+			icon: "ad_astra:space_painting"
+			id: "6D426827E82D388E"
+			shape: "diamond"
+			subtitle: "&6Prominence FORGE&r features a big &6skill tree&r where you can progress and build yourself your own class. &aClick in the quest to continue"
+			tasks: [{
+				id: "66578D5CD7A9DABF"
+				title: "&eClick here to continue"
+				type: "checkmark"
+			}]
+			title: "&f&lProgression:&6&l Skill Tree"
+			x: -1.5d
+			y: -2.5d
+		}
+	]
+	title: " Getting Started"
+}

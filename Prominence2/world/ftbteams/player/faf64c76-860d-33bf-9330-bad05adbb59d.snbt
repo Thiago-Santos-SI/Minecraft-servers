@@ -1,0 +1,17 @@
+{
+	id: "faf64c76-860d-33bf-9330-bad05adbb59d"
+	type: "player"
+	player_name: "_Hakking_"
+	ranks: {
+		faf64c76-860d-33bf-9330-bad05adbb59d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "_Hakking_"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFE759"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

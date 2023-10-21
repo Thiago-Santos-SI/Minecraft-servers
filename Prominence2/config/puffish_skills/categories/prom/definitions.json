@@ -1,0 +1,645 @@
+{
+	"health+10%": {
+		"title": "+10%{+] Maximum Health",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff00a6"
+	},
+	"ranged_damage+3%": {
+		"title": "+8%[+] Roll Distance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "darkness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#639c85"
+	},
+	"luck+0.25": {
+		"title": "+0.25 Luck",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#00ff9f"
+	},
+	"luck+4": {
+		"title": "Lucky: +4 Luck",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#60fe01"
+	},
+	"jump+8%": {
+		"title": "+8%[+] Jump",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#0031ff"
+	},
+	"hothead": {
+		"title": "Consistency - +50%[x] Movmeent Speed, -80%[x] Roll Recharge Rate",
+				"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": -0.8,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffe4"
+	},
+	"donoharm": {
+		"title": "Do No Harm - +100%[x] Self Healing, -80%[x] Damage",
+				"frame": "challenge",
+
+
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.8,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": -0.8,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#9d00ff"
+	},
+	"armor+20%": {
+		"title": "+20%[+] Armor",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#474ab8"
+	},
+	"toughness+20%": {
+		"title": "+20%[+] Toughness",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#30ff00"
+	},
+	"melee_damage+12%": {
+		"title": "+12%[+] Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00efff"
+	},
+	"ranged_damage+12%": {
+		"title": "+12%[+] Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#669968"
+	},
+	"attack_speed+6%": {
+		"title": "+8%[+] Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ffe500"
+	},
+	"movement_speed+6%": {
+		"title": "+6%[+] Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#5aa758"
+	},
+	"healing+12%": {
+		"title": "+12%[+] Healing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.12,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#7f7f7f"
+	},
+	"stamina+8%": {
+		"title": "+8%[+] Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"editor-color": "#ff5300"
+	},
+	"fire+12%": {
+		"title": "+2%[x] Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#d3622c"
+	},
+	"frost+12%": {
+		"title": "+2%[x] Jump Height",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffff"
+	},
+	"arcane+12%": {
+		"title": "+4%[x] Roll Distance and Recharge Rate",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "darkness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#dc23ce"
+	},
+	"eldritch": {
+		"title": "Greater Second Wind - +2 Rolls, -10%[x] Roll Recharge Rate",
+		
+		"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "darkness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": -0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:count",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"editor-color": "#00ffe4"
+	},
+	"flurryofblows": {
+		"title": "'Imagine if I Had a Real Weapon' - Heavy Weapons Guy + Light Attack Larry",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fishing_rod"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.5,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.5,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#9d00ff"
+	},
+	"heavy": {
+		"title": "Heavy Weapons Guy - +2 Attack Speed, -50%[x] Attack Speed",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.5,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#ae519b"
+	},
+	"larry": {
+		"title": "Light Attack Larry - +8 Attack Damage, -50%[x] Attack Damage",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.5,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#3d72c2"
+	},
+	"grace": {
+		"title": "Cat's Grace - -100%[+] Knockback Resistance, +30%[x] Movement Speed, +30%[x] jump",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": -1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#30ff00"
+	},
+	"stalwart": {
+		"title": "Stalwart - +40%[x] Resistance, -100%[x] Armor, -100%[x] Armor Toughness",
+				"frame": "challenge",
+
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.4,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": -1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#30ff00"
+	},
+	"iceking": {
+		"title": "Verticality - +50%[x] Jump Boost, -80%[x] Roll Distance",
+				"frame": "challenge",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": -0.8,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"editor-color": "#00ffe4"
+	}
+}

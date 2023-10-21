@@ -1,0 +1,17 @@
+{
+	id: "55ad2314-aa08-3156-bf44-f618e29e8ec0"
+	type: "player"
+	player_name: "Pressota"
+	ranks: {
+		55ad2314-aa08-3156-bf44-f618e29e8ec0: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Pressota"
+		"ftbteams:description": ""
+		"ftbteams:color": "#EE59FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

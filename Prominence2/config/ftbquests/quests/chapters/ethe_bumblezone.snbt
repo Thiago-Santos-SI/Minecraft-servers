@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ethe_bumblezone"
+	group: "3E586F2160161EEA"
+	icon: {
+		Count: 1b
+		id: "the_bumblezone:bumble_bee_chestplate_1"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5E108F66F3EF0B77"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "minecraft:bee_nest"
+			id: "5669A0DAB45F2C62"
+			rewards: [
+				{
+					count: 3
+					id: "68B96BCAAF09064C"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "301AEE86B0BD9B29"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "5BB593EBC8F2AB99"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:bee"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "You can enter the dimension by throwing &2Enderpearl&r at a &6Bee Hive/Beenest &ror by being squished into a &6Bee Hive/Beenes&rtt by a &aPiston.You can &7exit&r &6the dimension&r  by &bdigging below y = 0&r  or &bdigging above y = 255&r  in &6the dimension!&r Also works with any &centity&r  and you can &cbe riding any vehicle&r too."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "23EB799CA31143EC"
+				title: "Enter &6The Bumblezone"
+				type: "dimension"
+			}]
+			title: "Enter &6The Bumblezone"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "6A5111F402D746D5"
+			rewards: [{
+				id: "08A9E52EF30B8768"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			subtitle: "Can be found in &6Throne Pillar&r  structure only. You can find &6Throne Pillars&r  by getting a special &6Honey Compass&r  from the &bCell Maze&r, &bBattle Cubes&r, or &bHonitel structures&r."
+			tasks: [{
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				id: "3BB5DC62B7B44E05"
+				observe_type: 5
+				timer: 0L
+				to_observe: "the_bumblezone:bee_queen"
+				type: "observation"
+			}]
+			title: "Find the &6&lBee Queen"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			description: [
+				"When it hits a block, it will try to &4spawn a Pile of Pollen block&r. (If in midair, it'll turn into a falling block)"
+				""
+				"Will make &bpandas sneeze&r if thrown at them."
+				""
+				"If it hits an &bunpollinated bee&r, it will pollinate"
+			]
+			id: "1085588F956F6781"
+			rewards: [{
+				id: "169CB0BDCB55EA87"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			subtitle: "A &6ball of pollen&r that can be thrown like a &l&fsnowball&r but will not deal any damage or pushback."
+			tasks: [{
+				id: "076801A54434CD21"
+				item: "the_bumblezone:pollen_puff"
+				type: "item"
+			}]
+			title: "Obtain &6Pollen Puff"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "3423FA7B4F92768B"
+			rewards: [{
+				id: "386FD735D2953786"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "An uncommon &aflower&r made of &bmagical honey crystals&r! Spawns only in the &6Hanging Garden structure&r or in &6the Overgrown Flower structure&r. The &aflower&r can only survive on &5Glistering Honey Crystals&r, &5Amethyst                                          &r&2Right click&r it to open up a &6GUI&r where you can grow the &aplant &rby giving it you &aXP&r or&a stacks of items to consume&r"
+			tasks: [{
+				id: "5FF37AEBE070441D"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			title: "Find a &6Crystalline Flower"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "688EE585D0671881"
+			rewards: [{
+				id: "44117B0F9B885B2F"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A shield that starts off super weak but &4becomes much stronger &rthe more you repair it with &4Honey Crystal Shards&r to the point it has about &4double the durability &rof vanilla's Shield!"
+			tasks: [{
+				id: "28BE9C19B9F68C1F"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Honey Crystal Shield"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "08804D93484D9C60"
+			rewards: [{
+				count: 3
+				id: "674D58C550E51E7D"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			subtitle: "A neat compass that when &4right clicked on beehives/bee nests&r, it will keep track of &6the block's position&r! When you &4right click the air&r in &6Bumblezone dimension&r, it will point to the closest &bCell maze structure&r."
+			tasks: [{
+				id: "4B12686C4E7FA242"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Honey Compass"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "1BFCB5C87468A424"
+			rewards: [
+				{
+					id: "339C9DF3E3EF98F8"
+					item: "the_bumblezone:honey_crystal_shards"
+					type: "item"
+				}
+				{
+					id: "2110149A766D1CB7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "This &bhigh-knockback&r, &bhigh-damage cannon&r lets you store &6Honey Crystal Shards&r from your inventory into the item!"
+			tasks: [{
+				id: "227B94B9FEDCBCD3"
+				item: {
+					Count: 1b
+					id: "the_bumblezone:crystal_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Crystal Cannon"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "0A2124530AD7C8A5"
+			rewards: [
+				{
+					id: "3ECC1A11F188E7C5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66C464B154F49554"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23509C2226A96EF8"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "438806C28CD0A0CF"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "7D25AC3C49529EB0"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "26B417B92EF26C6D"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+			]
+			title: "Collect the &6Bumblezone music discs."
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5669A0DAB45F2C62"]
+			id: "0049E9BB756FFD21"
+			rewards: [
+				{
+					id: "7D1E63C25A88C06D"
+					item: "the_bumblezone:royal_jelly_bucket"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0DD02DBEF8FBD16E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Found in &4Cell Maze structure&r."
+			tasks: [
+				{
+					id: "35CEE3E7AAA08628"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:stingless_bee_helmet_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75608CF7E520EF4B"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:bumble_bee_chestplate_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "143EDBF4447E6675"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:honey_bee_leggings_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "038F979BA8FAB077"
+					item: {
+						Count: 1b
+						id: "the_bumblezone:carpenter_bee_boots_1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: " &6Bumblezone "
+}

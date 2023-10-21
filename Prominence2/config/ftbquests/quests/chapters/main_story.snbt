@@ -1,0 +1,829 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_story"
+	group: "19B20CC85415EF9B"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "prominent:textures/other/prominent-logo.png"
+		}
+	}
+	id: "33AB3D787DE6F0E5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 2.5d
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/cobweb"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 1.4954166666666664d
+			hover: [ ]
+			image: "prominent:textures/text/dimensionalthreats.png"
+			rotation: 0.0d
+			width: 9.7d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "prominent:textures/text/the_beginning.png"
+			rotation: 0.0d
+			width: 8.06060606060606d
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.5d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "alchemistry:block/fission_chamber_controller_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/hydra_flat"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "supplementaries:block/end_lamps/end_stone_lamp_f"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/snow_queen_flat"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.3d
+			hover: [ ]
+			image: "occultism:textures/gui/book/summoning.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.3d
+			hover: [ ]
+			image: "cataclysm:textures/entity/leviathan/abyss_orb.png"
+			rotation: 0.0d
+			width: 2.3d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7CBAFED315D614C3"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ironchests:block/barrels/netherite/bottom"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The once the king of &eChorbia&r has been resurrected and corrupted by &dthe void&r, now known as &bThe Corrupted Champion."
+				""
+				"&bThe Corrupted Champion&r is located in the surface of the &aOverworld&r. Specifically, it can be found in &elarge floating island&r above the &boceans."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss1.png"
+				}
+			}
+			id: "49C9DC2F3D131A14"
+			rewards: [
+				{
+					id: "6D8C0607021D1A41"
+					item: {
+						Count: 1b
+						id: "travelersbackpack:quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "542CE92AECC3F563"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:corruption"
+				id: "0AE18CC3F14CA259"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2&lOverworld&f&l: &9&lThe Corrupted Champion"
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31175CEE21BB2B76"]
+			description: ["&aNestled&r within the &bOverworld&r lies the enigmatic &9Ancient Factory&r, a place of mechanical wonders. It is here that &cThe Harbinger&r is said to spawn, a mysterious being of unknown purpose and origin. &r"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss4.png"
+				}
+			}
+			id: "759AA6DD39277704"
+			rewards: [{
+				id: "09826DC6C54E3B82"
+				item: {
+					Count: 1b
+					id: "simplyswords:runic_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "2C3EE780FC4E8C0E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2&lOverworld&r&l&f: &5The Harbinger"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D2F5172677E28CC"]
+			description: ["Having defeated the &5Ender Golem&r and ventured into the &5Ruined Citadel&r, face the final challenge: the &5Ender Guardian&r. Victory reveals the &5End's deepest secrets&r, concluding the epic quest."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss11.png"
+				}
+			}
+			id: "0998DC9B397E1146"
+			rewards: [
+				{
+					id: "5B90CF0F586C92DC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "48C1CD14062B5C9B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "185D559AF9448236"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&eEnd&f&l: &r&l&5Ender Guardian"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["36885C9965688381"]
+			description: [
+				"&dJane&r, once a great emerald dragon, has fallen on the &dvoid's influence&r. She's now corrupted and filled with the void's rage, at the core of the &eEnd&r."
+				""
+				"&cFighting her won't be easy&r. The void has given her great powers driven by an endless rage."
+			]
+			icon: "minecraft:dragon_head"
+			id: "48AADA398DC4E940"
+			rewards: [
+				{
+					count: 3
+					id: "02192C9D4962C5E7"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "544D6EE6AB75D837"
+					item: {
+						Count: 1b
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "028D2778B20852AA"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e&lEnd&f&l: &9&lThe Ender Dragon"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Deep within &6Vaaz&r, the volcano where everything originated, lives &cS'kellak&r, the creator of all things."
+				""
+				"He maintains the &ebalance&r through all dimensions and has fought countless battles to avoid &cthe realms' destruction&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/prominent-logo.png"
+				}
+			}
+			id: "343EF47C470616FF"
+			rewards: [{
+				count: 10
+				id: "3E1D2975766073F8"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "&8[Click to read lore piece]"
+			tasks: [{
+				id: "0C6DB9DA67E14C1A"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "The Beginning of Creation"
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["343EF47C470616FF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"But now, after &eeons of battles&r, &cS'kellak&r is as weak as ever. And a new threat approaches, a hungry world ending force, known as &dThe Void&r."
+				""
+				"&cS'kellak&r has contained the void's invasion for a long time, but now with him being at his weakest point, they are planning an invasion to &call dimensions&r, corrupting what once were peaceful creatures and turning them into &ddeadly aberrations&r."
+			]
+			hide: true
+			icon: "cataclysm:monstrous_eye"
+			id: "7AE1542456418BCD"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore piece]"
+			tasks: [{
+				id: "64C1384346BEE406"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "A New Threat"
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7AE1542456418BCD"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&cS'kellak&r has found a source of unbalance in the realms. &aAll dimensions&r have been affected with the &dvoid's presence&r. "
+				""
+				"What once were peaceful creatures turned into &dpowerful aberrations&r by its corruption. &cThe fate of the realms is on you."
+			]
+			hide: true
+			icon: "alexsmobs:void_worm_eye"
+			id: "7CBAFED315D614C3"
+			rewards: [{
+				id: "54CA29F1B3998C6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read more]"
+			tasks: [{
+				id: "444189B4E513644B"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&6&lChapter 1: &eThe Void's Invasion"
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0998DC9B397E1146"]
+			dependency_requirement: "one_completed"
+			description: [
+				"With the defeat of the &4Dimensional Threats&r and the restoration of the realms's balance, &cS'kellak&r, the eternal flame, spoke directly to the champion."
+				""
+				"\"&3In recognition of your valor and dedication&r\" S'kellak's voice resonated, \"&3I bestow upon you a fragment of my essence, the&r &cMolten Core&r.\""
+				""
+				"&6This gift&r, illuminated by &cS'kellak's&r fiery presence, signified both the hero's triumph and a pledge of continued protection for their world."
+			]
+			hide: true
+			icon: "prominent:molten_core"
+			id: "63A18694A9470D66"
+			rewards: [{
+				id: "4DFA0A3477D9C5D1"
+				item: "prominent:molten_core"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				id: "388209961991648D"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&eS'kellak's Reward"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0998DC9B397E1146"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eThe Ender Guardian has been defeated&7, but its &kg&kg&kg&kg&kg&r escaped the &kg&kg&kg&kg&r and formed a rift in the End. Something is coming."
+				""
+				"&7Deep in the end, strange voices are now whispering &8&o\"The King in Yellow is near\"&r."
+				""
+				"&c&lComing soon in v1.4.0"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18E337BC1F3F75FD"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read lore]"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "epicsamurai:kitsune_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B7B1BCF7D0AFD51"
+				title: "Coming soon"
+				type: "custom"
+			}]
+			title: "&6&lChapter 2:&e A New End"
+			x: 4.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["49C9DC2F3D131A14"]
+			description: ["&cAtop&r the &6blazing inferno&r of the &4Nether&r lies the &cBurning Arena&r. Perched within this scorching realm, a solitary altar known as the &eAltar of Ignis&r awaits its seeker. To summon the fiery elemental lord, &eIgnis&r, you need to place &4burning ashes&r in the &eAltar&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss2.png"
+				}
+			}
+			id: "36885C9965688381"
+			rewards: [
+				{
+					id: "716B297594E06BC5"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "27BCB36B63A8F122"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icon/boss2.png"
+					}
+				}
+				id: "7384FBC946644652"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&cNether&r&l&f: &r&l&6Ignis"
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48AADA398DC4E940"]
+			description: ["In the &eEverdawn&r dimension, unlock the &6Alchemist Dungeon&r with the Keys from the &fBlinding Dungeon&r. The &6Alchemist&r, a master of potions and constructs, awaits. His attacks offer visual cues, but heed them well, for missing one may bring &cheavy harm&r. Conquer him to access the &2Poison Dungeon&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss3.png"
+				}
+			}
+			id: "31175CEE21BB2B76"
+			rewards: [
+				{
+					id: "2296B91999E910F1"
+					item: {
+						Count: 1b
+						id: "blue_skies:alchemy_scroll"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "136937F24F9DEEEE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: "blue_skies:alchemist_spawn_egg"
+				id: "49A4E82ED92EAF6E"
+				title: "Kill The Alchemist"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&8Everdawn&r&f&l:&r &l&5The Alchemist"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["653F7139190A488F"]
+			description: ["In the &eEverbright realm&r, face the &eSummoner&r, who wields lightning and energy attacks, and watch out for his relentless golem guards. Victory grants access to the &aNature Dungeon&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss8.png"
+				}
+			}
+			id: "6C34EF594FF69C3D"
+			rewards: [
+				{
+					id: "3311A4144F3B7800"
+					item: {
+						Count: 1b
+						id: "blue_skies:summoning_tome"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A773B9A7F9BD7EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: "blue_skies:summoner_spawn_egg"
+				id: "4B83590EC786C686"
+				title: "Kill The Summoner"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&9Everbright&f&l: &r&l&dThe Summoner"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["759AA6DD39277704"]
+			description: ["Within the &5Twilight Dimension&r, discover the key in &7Hollow Hills&r. It opens &8The Dark Forest&r. The &cHydra&r dwells there."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss5.png"
+				}
+			}
+			id: "2D7BAFD0592F273A"
+			rewards: [
+				{
+					count: 8
+					id: "68F17245B445A8C0"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "2E425CA7ECC123DE"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "237B8686ED7FA179"
+				title: "Defeat the Hydra"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&bTwlilight&r&f&l: &r&l&2The Hydra"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DE6D97267E11A4F"]
+			description: [
+				"&7Once the queen of the kingdom of &eChorbia&7, she has been resurrected and controlled by the void's forces."
+				""
+				"&7&oShe is found in &fGlaciers&7."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss7.png"
+				}
+			}
+			id: "653F7139190A488F"
+			rewards: [{
+				id: "1C722576C7F49200"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "5DDAEF3321A8840E"
+				title: "Defeat the Snow Queen"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&bTwlilight&r&f&l: &r&l&fThe Snow Queen"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C34EF594FF69C3D"]
+			description: ["In the fiery &4Nether&r, challenge the &6Netherite Monstrosity&r within the &8Soul Black Smith&r to claim its treasures."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss9.png"
+				}
+			}
+			id: "5A5ECF9D043519DC"
+			rewards: [
+				{
+					id: "0B959F87361B7E39"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "571ED29E340EA41B"
+					item: "advancednetherite:netherite_gold_ingot"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "36C51267ABD6FA69"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&cNether&r&f&l: &r&l&6The Netherite Monstrosity"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A5ECF9D043519DC"]
+			description: ["In the &eSunken City&r, perform the &bAbyssal Sacrifice&r on the &bAltar of Abyssal&r to summon &9The Leviathan&r. Conquering it unveils the city's secrets and treasures."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss10.png"
+				}
+			}
+			id: "6D2F5172677E28CC"
+			rewards: [
+				{
+					id: "48EAF54B27BA01AB"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "177A69CFAF9C3B2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "46284F836EF9812A"
+				type: "advancement"
+			}]
+			title: "&2&lOverworld&r&l&f: &5The Leviathan"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D7BAFD0592F273A"]
+			description: ["In the &5End's Ruined Citadels&r on the &5End Islands&r, uncover the key. Beware the &5Ender Golem&r, its fierce guardian."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icon/boss6.png"
+				}
+			}
+			id: "7DE6D97267E11A4F"
+			rewards: [{
+				id: "076BDBD0F61E3F95"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and indications]"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "447476E0A5E1C20B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&eEnd&f&l: &r&l&5The Ender Golem"
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	title: "&6&nExpansion:&r &dVoid's Invasion"
+}

@@ -1,0 +1,17 @@
+{
+	id: "f1a96447-38a9-39ac-9994-5fc554d8e9ef"
+	type: "player"
+	player_name: "just_ken"
+	ranks: {
+		f1a96447-38a9-39ac-9994-5fc554d8e9ef: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "just_ken"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFB6"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

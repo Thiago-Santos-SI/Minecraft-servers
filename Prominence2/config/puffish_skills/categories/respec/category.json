@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"exclusive_root": false,
+	"title": "20 Respecs - Use Them Wisely",
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "darkness"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}
