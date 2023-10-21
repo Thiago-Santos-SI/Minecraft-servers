@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "15cd99d48a73390aa7fb89b26a263e42"
+	name: "Jorgevvs#15cd99d4"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		7B701D980200A661: 1
+	}
+	started: {
+		7539C31213D86E55: 1697911286985L
+		0000000000000001: 1697911286985L
+		7B701D980200A661: 1697911286985L
+		1DD302BB650057E3: 1697911286985L
+	}
+	completed: {
+		7B701D980200A661: 1697911286986L
+		1DD302BB650057E3: 1697911286986L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

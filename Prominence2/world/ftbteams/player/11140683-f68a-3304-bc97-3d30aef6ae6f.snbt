@@ -1,0 +1,17 @@
+{
+	id: "11140683-f68a-3304-bc97-3d30aef6ae6f"
+	type: "player"
+	player_name: "Karen"
+	ranks: {
+		11140683-f68a-3304-bc97-3d30aef6ae6f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Karen"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E859FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

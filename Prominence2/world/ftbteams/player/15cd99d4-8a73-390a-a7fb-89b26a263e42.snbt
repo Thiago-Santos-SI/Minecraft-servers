@@ -1,0 +1,17 @@
+{
+	id: "15cd99d4-8a73-390a-a7fb-89b26a263e42"
+	type: "player"
+	player_name: "Jorgevvs"
+	ranks: {
+		15cd99d4-8a73-390a-a7fb-89b26a263e42: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Jorgevvs"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59E6FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

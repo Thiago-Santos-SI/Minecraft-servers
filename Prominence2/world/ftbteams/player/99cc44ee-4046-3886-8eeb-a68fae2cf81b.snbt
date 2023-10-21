@@ -1,0 +1,17 @@
+{
+	id: "99cc44ee-4046-3886-8eeb-a68fae2cf81b"
+	type: "player"
+	player_name: "binjmhu"
+	ranks: {
+		99cc44ee-4046-3886-8eeb-a68fae2cf81b: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "binjmhu"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5995FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
