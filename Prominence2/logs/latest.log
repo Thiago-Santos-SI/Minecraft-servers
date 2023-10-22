@@ -1,242 +1,328 @@
-[21out.2023 18:55:51.332] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[21out.2023 18:55:51.337] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 18.0.2.1 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[21out.2023 18:55:56.014] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[21out.2023 18:55:56.024] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[21out.2023 18:55:56.040] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[21out.2023 18:55:56.066] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[21out.2023 18:55:56.113] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/E:/Minecraft-servers/Prominence2/mods/Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/ Service=ModLauncher Env=SERVER
-[21out.2023 18:55:58.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\Minecraft-servers\Prominence2\libraries\net\minecraftforge\fmlcore\1.20.1-47.1.3\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[21out.2023 18:55:58.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\Minecraft-servers\Prominence2\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.1.3\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[21out.2023 18:55:58.347] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\Minecraft-servers\Prominence2\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.1.3\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[21out.2023 18:55:58.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\Minecraft-servers\Prominence2\libraries\net\minecraftforge\mclanguage\1.20.1-47.1.3\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[21out.2023 18:55:58.919] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: E:\Minecraft-servers\Prominence2\mods\geckolib-forge-1.20.1-4.2.2.jar
-[21out.2023 18:55:58.920] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: E:\Minecraft-servers\Prominence2\mods\curios-forge-5.3.1+1.20.1.jar
-[21out.2023 18:55:58.921] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: E:\Minecraft-servers\Prominence2\mods\resourcefullib-forge-1.20.1-2.1.11.jar
-[21out.2023 18:55:58.924] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 74 dependencies adding them to mods collection
-[21out.2023 18:56:01.769] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 2 candidates to load
-[21out.2023 18:56:03.348] [main/ERROR] [net.minecraftforge.fml.loading.LanguageLoadingProvider/LOADING]: Missing language javafml version [48,) wanted by Chunk+Pregenerator-1.20.2-4.2.3.jar, found 47
-[21out.2023 18:56:06.205] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21out.2023 18:56:06.913] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[21out.2023 18:56:06.915] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.miningdimension.mixin.MixinConnector]
-[21out.2023 18:56:06.921] [main/ERROR] [dev.su5ed.sinytra.connector.loader.ConnectorEarlyLoader/]: Skipping early mod setup due to previous error
-[21out.2023 18:56:06.922] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21out.2023 18:56:07.039] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.7.2+mc1.20.1: 20 options available, 1 override(s) found
-[21out.2023 18:56:07.040] [main/WARN] [ModernFix/]: Option 'mixin.launch.class_search_cache' overriden (by load error) to 'false'
-[21out.2023 18:56:07.047] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[21out.2023 18:56:07.061] [main/WARN] [ModernFix/]: Applying ATs from 123 mods despite being in errored state, this might cause a crash!
-[21out.2023 18:56:07.255] [main/ERROR] [ModernFix/]: Failed to patch mixin memory leak
-java.lang.NoSuchFieldException: NO_GROUP
-	at java.lang.Class.getDeclaredField(Class.java:2642) ~[?:?]
-	at org.embeddedt.modernfix.platform.forge.ModernFixPlatformHooksImpl.injectPlatformSpecificHacks(ModernFixPlatformHooksImpl.java:106) ~[modernfix-forge-5.7.2+mc1.20.1.jar%23454!/:5.7.2+mc1.20.1]
-	at org.embeddedt.modernfix.core.ModernFixMixinPlugin.<init>(ModernFixMixinPlugin.java:71) ~[modernfix-forge-5.7.2+mc1.20.1.jar%23454!/:5.7.2+mc1.20.1]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.PluginHandle.<init>(PluginHandle.java:97) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinConfig.onSelect(MixinConfig.java:708) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.selectConfigs(MixinProcessor.java:498) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:460) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:633) ~[?:?]
-	at java.lang.Class.forName(Class.java:577) ~[?:?]
-	at java.lang.Class.forName(Class.java:552) ~[?:?]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21out.2023 18:56:07.281] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[21out.2023 18:56:07.351] [main/WARN] [mixin/]: Reference map 'lmft-forge-refmap.json' for lmft.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.394] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.398] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.499] [main/WARN] [mixin/]: Reference map 'ysnsforge.refmap.json' for ysns.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.515] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.561] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.569] [main/WARN] [mixin/]: Reference map 'epicsamurai.mixins.refmap.json' for epicsamurai.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.687] [main/WARN] [CanaryConfig/]: No configuration key exists with name 'mixin.block.hopper', ignoring
-[21out.2023 18:56:07.692] [main/INFO] [Canary/]: Loaded configuration file for Canary: 123 options available, 1 override(s) found
-[21out.2023 18:56:07.727] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.739] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.829] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.887] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.947] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.950] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:07.985] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:08.008] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:08.011] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[21out.2023 18:56:08.513] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/RoughlyEnoughItemsCore (java.lang.ClassNotFoundException: me.shedaniel.rei.RoughlyEnoughItemsCore)
-[21out.2023 18:56:08.514] [main/WARN] [mixin/]: @Mixin target me.shedaniel.rei.RoughlyEnoughItemsCore was not found mixins.reibridge.json:RoughlyEnoughItemsCoreMixin from mod (unknown)
-[21out.2023 18:56:08.583] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:08.583] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:08.585] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod (unknown)
-[21out.2023 18:56:08.588] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:08.588] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:08.589] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod (unknown)
-[21out.2023 18:56:08.776] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class vectorwing/farmersdelight/client/renderer/CanvasSignRenderer for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:08.776] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/client/renderer/CanvasSignRenderer (java.lang.RuntimeException: Attempted to load class vectorwing/farmersdelight/client/renderer/CanvasSignRenderer for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.009] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[21out.2023 18:56:09.009] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod (unknown)
-[21out.2023 18:56:09.054] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/FogRenderer for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.055] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/FogRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/FogRenderer for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.056] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.FogRenderer was not found shield_overhaul.mixins.json:BackgroundRendererMixin from mod (unknown)
-[21out.2023 18:56:09.058] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.058] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.059] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found shield_overhaul.mixins.json:ClientPlayerEntityMixin from mod (unknown)
-[21out.2023 18:56:09.082] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/ShareToLanScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.ShareToLanScreen)
-[21out.2023 18:56:09.083] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.ShareToLanScreen was not found luna.mixins.json:LANMixin from mod (unknown)
-[21out.2023 18:56:09.098] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.tasks.RaiderMoveThroughVillageGoalMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
-[21out.2023 18:56:09.326] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
-[21out.2023 18:56:09.332] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/components/ChatComponent (java.lang.ClassNotFoundException: net.minecraft.client.gui.components.ChatComponent)
-[21out.2023 18:56:09.332] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.components.ChatComponent was not found placebo.mixins.json:ChatComponentMixin from mod (unknown)
-[21out.2023 18:56:09.453] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/plugins/impl/audiochannel/EntityAudioChannelImpl (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl)
-[21out.2023 18:56:09.454] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl was not found railways-common.mixins.json:compat.voicechat.EntityAudioChannelImplMixin from mod (unknown)
-[21out.2023 18:56:09.458] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/Server (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.Server)
-[21out.2023 18:56:09.459] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.Server was not found railways-common.mixins.json:compat.voicechat.ServerMixin from mod (unknown)
-[21out.2023 18:56:09.462] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/ServerWorldUtils (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.ServerWorldUtils)
-[21out.2023 18:56:09.463] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.ServerWorldUtils was not found railways-common.mixins.json:compat.voicechat.ServerWorldUtilsMixin from mod (unknown)
-[21out.2023 18:56:09.521] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[21out.2023 18:56:09.522] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin from mod (unknown)
-[21out.2023 18:56:09.528] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.528] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/multiplayer/ServerSelectionList (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.528] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.multiplayer.ServerSelectionList was not found serverbrowser.mixins.json:ServerSelectionMixin from mod (unknown)
-[21out.2023 18:56:09.596] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
-[21out.2023 18:56:09.598] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
-[21out.2023 18:56:09.600] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen from mod (unknown)
-[21out.2023 18:56:09.620] [main/WARN] [mixin/]: Error loading class: dev/emi/emi/platform/forge/EmiAgnosForge (java.lang.ClassNotFoundException: dev.emi.emi.platform.forge.EmiAgnosForge)
-[21out.2023 18:56:09.620] [main/WARN] [mixin/]: @Mixin target dev.emi.emi.platform.forge.EmiAgnosForge was not found mixins.emibridge.json:EmiAgnosForgeMixin from mod (unknown)
-[21out.2023 18:56:09.621] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.622] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/main/Main (java.lang.RuntimeException: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.622] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.main.Main was not found mixins.emibridge.json:MainEntrypointMixin from mod (unknown)
-[21out.2023 18:56:09.723] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class vectorwing/farmersdelight/client/renderer/CanvasSignRenderer for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.723] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/client/renderer/CanvasSignRenderer (java.lang.RuntimeException: Attempted to load class vectorwing/farmersdelight/client/renderer/CanvasSignRenderer for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.725] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/blockentity/SignRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.blockentity.SignRenderer)
-[21out.2023 18:56:09.726] [main/ERROR] [mixin/]: Cannot invoke "io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.ClassInfo.isMixin()" because "superClass" is null
-java.lang.NullPointerException: Cannot invoke "io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.ClassInfo.isMixin()" because "superClass" is null
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:582) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:328) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:914) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:803) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at io.github.steelwoolmc.shadow.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[Connector-1.0.0-beta.15+1.20.1-full.jar%23323!/:1.0.0-beta.15+1.20.1]
-	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:633) ~[?:?]
-	at java.lang.Class.forName(Class.java:577) ~[?:?]
-	at java.lang.Class.forName(Class.java:552) ~[?:?]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21out.2023 18:56:09.930] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.931] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/main/Main (java.lang.RuntimeException: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.935] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:09.936] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/main/Main (java.lang.RuntimeException: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:09.958] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0-beta.10).
-[21out.2023 18:56:10.001] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER
-[21out.2023 18:56:10.002] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/main/Main (java.lang.RuntimeException: Attempted to load class net/minecraft/client/main/Main for invalid dist DEDICATED_SERVER)
-[21out.2023 18:56:10.164] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
-[21out.2023 18:56:11.620] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
-[21out.2023 18:56:11.621] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mde69974$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod (unknown)
-[21out.2023 18:56:11.623] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mde69974$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod (unknown)
-[21out.2023 18:56:16.118] [main/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
-[21out.2023 18:56:17.675] [main/ERROR] [dev.su5ed.sinytra.connector.mod.ConnectorLoader/]: Skipping early mod loading due to previous error
-[21out.2023 18:56:17.716] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
-net.minecraftforge.fml.ModLoadingException: Mod File Chunk+Pregenerator-1.20.2-4.2.3.jar needs language provider javafml:48 or above to load
-§7We have found 47
-	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.1.3.jar%23551!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.1.3.jar%23551!/:?]
-	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.1.3.jar%23551!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.20.1-47.1.3-universal.jar%23555!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23550!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21out.2023 18:56:17.845] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2023-10-21_18.56.17-fml.txt
-[21out.2023 18:56:17.853] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
-net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Mod File Chunk+Pregenerator-1.20.2-4.2.3.jar needs language provider javafml:48 or above to load
-§7We have found 47
-]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.1.3.jar%23551!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.20.1-47.1.3-universal.jar%23555!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23550!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[22out.2023 00:00:35.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> leva uma stone
+[22out.2023 00:00:38.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> waystone
+[22out.2023 00:00:57.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <PapelRasgado> xaero-waypoint:templo:T:-21:62:1110:2:false:0:Internal-overworld-waypoints
+[22out.2023 00:00:59.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> leva uns barcos
+[22out.2023 00:01:16.105] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _Hakking_ lost connection: Disconnected
+[22out.2023 00:01:16.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _Hakking_ left the game
+[22out.2023 00:01:16.115] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for faf64c76-860d-33bf-9330-bad05adbb59d
+[22out.2023 00:02:26.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.2942550661515497
+[22out.2023 00:02:26.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.29428220288522056
+[22out.2023 00:02:26.276] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.294327245426679
+[22out.2023 00:02:26.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.2943862201746015
+[22out.2023 00:02:26.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.2944566051450579
+[22out.2023 00:02:26.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.2945351359000412
+[22out.2023 00:02:26.478] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.2946189116983504
+[22out.2023 00:02:26.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.2947063463277786
+[22out.2023 00:02:26.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.29479602337327293
+[22out.2023 00:02:26.624] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PapelRasgado) moved wrongly! 0.2517404326403465
+[22out.2023 00:02:26.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of binjmhu) moved wrongly! 0.25625196922331384
+[22out.2023 00:02:26.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PapelRasgado) moved wrongly! 0.2575014422325239
+[22out.2023 00:02:26.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PapelRasgado) moved wrongly! 0.2626827111195027
+[22out.2023 00:02:26.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PapelRasgado) moved wrongly! 0.2673175631397342
+[22out.2023 00:02:26.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PapelRasgado) moved wrongly! 0.27139047415013806
+[22out.2023 00:02:26.888] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of PapelRasgado) moved wrongly! 0.27482308077951245
+[22out.2023 00:02:28.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> faz o L
+[22out.2023 00:03:17.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> com picareta
+[22out.2023 00:04:50.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has made the advancement [We Need to Go Deeper]
+[22out.2023 00:04:50.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has made the advancement [A Terrible Fortress]
+[22out.2023 00:04:51.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> a mae de alguem aq
+[22out.2023 00:04:58.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has made the advancement [We Need to Go Deeper]
+[22out.2023 00:04:58.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has made the advancement [A Terrible Fortress]
+[22out.2023 00:05:49.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pressota has made the advancement [Nightmare Fuel]
+[22out.2023 00:05:51.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> eas
+[22out.2023 00:06:01.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> nada
+[22out.2023 00:06:17.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: binjmhu has made the advancement [Barrel Booty]
+[22out.2023 00:06:46.387] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: binjmhu moved too quickly! -22.238115166464326,0.5,-958.4771836856293
+[22out.2023 00:06:56.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: binjmhu has made the advancement [Home Is Where the Bed Is]
+[22out.2023 00:06:56.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pressota has made the advancement [Home Is Where the Bed Is]
+[22out.2023 00:07:04.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> si
+[22out.2023 00:07:09.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> tem um barril aq
+[22out.2023 00:07:10.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> unico
+[22out.2023 00:07:58.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <PapelRasgado> xaero-waypoint:templo:T:-21:62:1110:2:false:0:Internal-overworld-waypoints
+[22out.2023 00:09:26.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> tu quer oq?
+[22out.2023 00:09:34.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> tinha um monte na base
+[22out.2023 00:09:42.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> pois eu tinha
+[22out.2023 00:10:30.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: binjmhu was slain by Guardian
+[22out.2023 00:10:32.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: binjmhu moved too quickly! 50.02023237943871,0.9267356753349318,-1115.3228051834358
+[22out.2023 00:10:39.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: binjmhu moved too quickly! -1783.3992131572818,-2.0,956.4298856730979
+[22out.2023 00:10:39.790] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: binjmhu moved too quickly! -1783.3992131572818,-2.0,956.4298856730979
+[22out.2023 00:10:54.591] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.641] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.694] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.775] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.787] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.841] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:54.940] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.024] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.039] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.092] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.241] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.337] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.341] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.391] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:10:55.442] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=57, y=65, z=-16} BlockPos{x=58, y=64, z=-16}
+[22out.2023 00:11:02.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=61, z=-16} BlockPos{x=54, y=61, z=-17}
+[22out.2023 00:11:02.137] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=61, z=-16} BlockPos{x=54, y=61, z=-17}
+[22out.2023 00:11:02.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=61, z=-16} BlockPos{x=54, y=61, z=-17}
+[22out.2023 00:11:09.285] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=58, y=64, z=-26} BlockPos{x=58, y=63, z=-26}
+[22out.2023 00:11:09.342] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=58, y=64, z=-26} BlockPos{x=58, y=63, z=-26}
+[22out.2023 00:11:09.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=58, y=64, z=-26} BlockPos{x=58, y=63, z=-26}
+[22out.2023 00:11:09.470] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=58, y=64, z=-26} BlockPos{x=58, y=63, z=-26}
+[22out.2023 00:11:09.492] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=58, y=64, z=-26} BlockPos{x=58, y=63, z=-26}
+[22out.2023 00:11:09.572] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=58, y=64, z=-26} BlockPos{x=58, y=63, z=-26}
+[22out.2023 00:11:11.137] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=58, z=-17} BlockPos{x=49, y=57, z=-17}
+[22out.2023 00:11:11.188] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=58, z=-17} BlockPos{x=49, y=57, z=-17}
+[22out.2023 00:11:11.236] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=58, z=-17} BlockPos{x=49, y=57, z=-17}
+[22out.2023 00:11:11.287] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=58, z=-17} BlockPos{x=49, y=57, z=-17}
+[22out.2023 00:11:11.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=58, z=-17} BlockPos{x=49, y=57, z=-17}
+[22out.2023 00:11:18.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> vou ver la
+[22out.2023 00:11:23.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> mas tenho ctz q viw
+[22out.2023 00:11:33.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> tem outro barco ai?
+[22out.2023 00:11:37.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> pegar meus itens
+[22out.2023 00:12:27.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> tem oil aq tb
+[22out.2023 00:12:36.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> ok
+[22out.2023 00:12:40.878] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:40.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=41, y=51, z=-16} BlockPos{x=43, y=52, z=-17}
+[22out.2023 00:12:40.893] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:40.935] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=41, y=51, z=-16} BlockPos{x=43, y=52, z=-17}
+[22out.2023 00:12:40.941] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:40.984] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=41, y=51, z=-16} BlockPos{x=43, y=52, z=-17}
+[22out.2023 00:12:40.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.032] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=41, y=51, z=-16} BlockPos{x=43, y=52, z=-17}
+[22out.2023 00:12:41.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.130] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=41, y=51, z=-16} BlockPos{x=43, y=52, z=-17}
+[22out.2023 00:12:41.131] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.191] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.292] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:41.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1, y=58, z=-26} BlockPos{x=2, y=58, z=-26}
+[22out.2023 00:12:48.537] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.673] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.735] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.743] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.828] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.838] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.934] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.942] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:48.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.072] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.092] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.326] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.378] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.420] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:49.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-3, y=60, z=-27} BlockPos{x=-3, y=59, z=-28}
+[22out.2023 00:12:50.682] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=38, y=51, z=-18} BlockPos{x=37, y=50, z=-18}
+[22out.2023 00:12:50.731] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=38, y=51, z=-18} BlockPos{x=37, y=50, z=-18}
+[22out.2023 00:12:50.779] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=38, y=51, z=-18} BlockPos{x=37, y=50, z=-18}
+[22out.2023 00:13:00.342] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-52} BlockPos{x=9, y=60, z=-51}
+[22out.2023 00:13:00.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-52} BlockPos{x=9, y=60, z=-51}
+[22out.2023 00:13:04.997] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-57} BlockPos{x=9, y=60, z=-57}
+[22out.2023 00:13:05.042] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-57} BlockPos{x=9, y=60, z=-57}
+[22out.2023 00:13:05.128] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-57} BlockPos{x=9, y=60, z=-57}
+[22out.2023 00:13:05.171] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-57} BlockPos{x=9, y=60, z=-57}
+[22out.2023 00:13:05.191] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=61, z=-57} BlockPos{x=9, y=60, z=-57}
+[22out.2023 00:13:28.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PapelRasgado has completed the challenge [Free Willy]
+[22out.2023 00:13:29.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> oq
+[22out.2023 00:13:36.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> templo?
+[22out.2023 00:14:22.176] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=56, z=-45} BlockPos{x=64, y=55, z=-45}
+[22out.2023 00:14:22.227] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=56, z=-45} BlockPos{x=64, y=55, z=-45}
+[22out.2023 00:14:25.578] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=65, y=56, z=-45} BlockPos{x=66, y=54, z=-45}
+[22out.2023 00:14:30.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=58, z=-52} BlockPos{x=9, y=57, z=-54}
+[22out.2023 00:14:30.193] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=9, y=58, z=-52} BlockPos{x=9, y=57, z=-54}
+[22out.2023 00:16:17.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pressota has completed the challenge [Free Willy]
+[22out.2023 00:17:08.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <He_enry> tp @s -669 71.5
+[22out.2023 00:18:56.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> so 8 dog
+[22out.2023 00:19:19.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has made the advancement [Best Friends Forever]
+[22out.2023 00:20:30.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> da pra transformar lapis lazuli eh?
+[22out.2023 00:20:32.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> tem mt
+[22out.2023 00:20:35.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> peguei alguns
+[22out.2023 00:21:09.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has made the advancement [World of illusion]
+[22out.2023 00:27:24.145] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: binjmhu moved too quickly! -23.93029526199328,0.5,-959.0282215672734
+[22out.2023 00:27:32.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> ai vcs q gostam de neve
+[22out.2023 00:27:46.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has made the advancement [Enchanter]
+[22out.2023 00:27:46.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> vou de base aq
+[22out.2023 00:27:48.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <binjmhu> vlw a todos
+[22out.2023 00:27:52.072] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: binjmhu lost connection: Disconnected
+[22out.2023 00:27:52.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: binjmhu left the game
+[22out.2023 00:27:52.075] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 99cc44ee-4046-3886-8eeb-a68fae2cf81b
+[22out.2023 00:28:42.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PapelRasgado has made the advancement [The Andesite Age]
+[22out.2023 00:31:06.040] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: He_enry moved too quickly! -17.778641859606978,0.0,0.09136815501389606
+[22out.2023 00:31:29.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has made the advancement [Eterna, Quanta, Arcana]
+[22out.2023 00:32:45.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has made the advancement [Thunder Time]
+[22out.2023 00:35:45.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PapelRasgado has made the advancement [Hot Stuff]
+[22out.2023 00:37:37.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has completed the challenge [Free Willy]
+[22out.2023 00:39:10.246] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2202ms or 44 ticks behind
+[22out.2023 00:46:05.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has made the advancement [Iron Maiden]
+[22out.2023 00:47:23.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has reached the goal [Astronaut]
+[22out.2023 00:49:38.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken was slain by Pressota
+[22out.2023 00:49:58.727] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/222116, l='ServerLevel[world]', x=-1612.40, y=26.00, z=223.50] died: Debris Miner was slain by He_enry
+[22out.2023 00:50:43.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken was slain by Pressota
+[22out.2023 00:50:45.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: just_ken moved too quickly! 45.694715765043306,-1.0625,-24.388712345254312
+[22out.2023 00:52:08.987] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/223221, l='ServerLevel[world]', x=-1646.82, y=22.00, z=241.98] died: Debris Miner was slain by He_enry
+[22out.2023 00:52:25.133] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/223220, l='ServerLevel[world]', x=-1642.65, y=21.00, z=241.64] died: Debris Miner was slain by He_enry
+[22out.2023 00:54:45.951] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/223974, l='ServerLevel[world]', x=-1680.92, y=26.00, z=242.91] died: Debris Miner was slain by He_enry
+[22out.2023 00:54:45.952] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224033, l='ServerLevel[world]', x=-1681.54, y=26.00, z=242.10] died: Debris Miner was slain by He_enry
+[22out.2023 00:54:48.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224125, l='ServerLevel[world]', x=-1683.70, y=26.00, z=243.27] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:10.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pressota has made the advancement [Into Fire]
+[22out.2023 00:58:13.593] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225018, l='ServerLevel[world]', x=-1683.85, y=26.00, z=254.79] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:18.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224801, l='ServerLevel[world]', x=-1682.58, y=26.00, z=254.88] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:18.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225156, l='ServerLevel[world]', x=-1683.33, y=26.00, z=254.48] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:20.583] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224380, l='ServerLevel[world]', x=-1683.02, y=26.00, z=253.99] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:28.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225339, l='ServerLevel[world]', x=-1683.01, y=26.00, z=256.12] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:31.732] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/223976, l='ServerLevel[world]', x=-1682.80, y=26.00, z=254.17] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:34.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225206, l='ServerLevel[world]', x=-1683.35, y=26.00, z=254.37] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:35.689] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224467, l='ServerLevel[world]', x=-1683.80, y=26.00, z=254.50] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:36.733] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224320, l='ServerLevel[world]', x=-1683.91, y=26.00, z=253.70] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:42.710] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225795, l='ServerLevel[world]', x=-1683.96, y=26.00, z=255.29] died: Debris Miner was slain by He_enry
+[22out.2023 00:58:43.728] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224454, l='ServerLevel[world]', x=-1683.94, y=26.00, z=254.52] died: Debris Miner was slain by He_enry
+[22out.2023 01:00:26.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pressota has made the advancement [Stare Into Despair]
+[22out.2023 01:01:33.784] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-46, y=36, z=179} BlockPos{x=-45, y=36, z=180}
+[22out.2023 01:02:02.381] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-48, y=41, z=181} BlockPos{x=-48, y=41, z=180}
+[22out.2023 01:02:38.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224867, l='ServerLevel[world]', x=-1685.88, y=26.00, z=272.57] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:38.282] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225020, l='ServerLevel[world]', x=-1686.14, y=26.00, z=273.10] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:46.589] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228265, l='ServerLevel[world]', x=-1685.31, y=26.00, z=272.04] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:46.593] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224520, l='ServerLevel[world]', x=-1686.70, y=26.00, z=273.29] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:47.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225898, l='ServerLevel[world]', x=-1686.02, y=26.00, z=272.63] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:47.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224800, l='ServerLevel[world]', x=-1685.56, y=26.00, z=273.27] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:47.584] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/226937, l='ServerLevel[world]', x=-1685.69, y=26.00, z=272.64] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:47.586] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228006, l='ServerLevel[world]', x=-1686.66, y=26.00, z=272.55] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:47.588] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224974, l='ServerLevel[world]', x=-1686.70, y=26.00, z=272.58] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:49.777] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/226462, l='ServerLevel[world]', x=-1686.67, y=26.00, z=271.93] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:49.779] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/226041, l='ServerLevel[world]', x=-1685.43, y=26.00, z=272.42] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:49.780] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/227050, l='ServerLevel[world]', x=-1686.65, y=26.00, z=272.51] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:50.939] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228266, l='ServerLevel[world]', x=-1685.17, y=26.00, z=271.68] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:50.940] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228267, l='ServerLevel[world]', x=-1685.98, y=26.00, z=272.12] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:50.945] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224754, l='ServerLevel[world]', x=-1686.68, y=26.00, z=273.21] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:50.947] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/225087, l='ServerLevel[world]', x=-1686.01, y=26.00, z=272.73] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:50.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/227177, l='ServerLevel[world]', x=-1686.69, y=26.00, z=272.24] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:50.950] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228108, l='ServerLevel[world]', x=-1686.52, y=26.00, z=272.02] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:52.042] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/226409, l='ServerLevel[world]', x=-1686.11, y=26.00, z=272.66] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:53.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224582, l='ServerLevel[world]', x=-1686.53, y=26.00, z=272.88] died: Debris Miner was slain by He_enry
+[22out.2023 01:02:54.331] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228413, l='ServerLevel[world]', x=-1685.49, y=26.00, z=272.35] died: Debris Miner was slain by He_enry
+[22out.2023 01:03:01.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228484, l='ServerLevel[world]', x=-1686.19, y=26.00, z=272.47] died: Debris Miner was slain by He_enry
+[22out.2023 01:03:52.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228683, l='ServerLevel[world]', x=-1686.65, y=26.00, z=272.37] died: Debris Miner was slain by He_enry
+[22out.2023 01:03:52.939] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228684, l='ServerLevel[world]', x=-1686.11, y=26.00, z=272.66] died: Debris Miner was slain by He_enry
+[22out.2023 01:03:54.039] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228968, l='ServerLevel[world]', x=-1686.17, y=26.00, z=272.76] died: Debris Miner was slain by He_enry
+[22out.2023 01:04:05.880] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229158, l='ServerLevel[world]', x=-1688.70, y=26.00, z=271.76] died: Debris Miner was slain by He_enry
+[22out.2023 01:04:42.829] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228834, l='ServerLevel[world]', x=-1688.48, y=26.00, z=271.92] died: Debris Miner was slain by He_enry
+[22out.2023 01:04:49.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224664, l='ServerLevel[world]', x=-1688.30, y=26.00, z=271.30] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:01.483] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229429, l='ServerLevel[world]', x=-1688.30, y=26.00, z=271.30] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:01.485] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224665, l='ServerLevel[world]', x=-1688.30, y=26.00, z=271.85] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:01.487] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229302, l='ServerLevel[world]', x=-1688.84, y=26.00, z=272.30] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:01.490] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229582, l='ServerLevel[world]', x=-1688.28, y=26.00, z=272.44] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:01.492] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229303, l='ServerLevel[world]', x=-1688.70, y=26.00, z=271.37] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:02.541] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224876, l='ServerLevel[world]', x=-1687.82, y=26.00, z=272.30] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:03.787] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/228835, l='ServerLevel[world]', x=-1688.48, y=26.00, z=271.93] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:13.893] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229748, l='ServerLevel[world]', x=-1688.84, y=26.00, z=272.30] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:17.380] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229863, l='ServerLevel[world]', x=-1688.30, y=26.00, z=271.35] died: Debris Miner was slain by He_enry
+[22out.2023 01:05:19.587] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/229864, l='ServerLevel[world]', x=-1688.54, y=26.00, z=271.94] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:09.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PapelRasgado: Teleported Pressota to PapelRasgado]
+[22out.2023 01:06:35.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230015, l='ServerLevel[world]', x=-1688.70, y=27.02, z=270.82] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:38.239] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230497, l='ServerLevel[world]', x=-1688.58, y=27.00, z=270.70] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:41.442] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230402, l='ServerLevel[world]', x=-1688.30, y=27.00, z=271.59] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:42.589] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230094, l='ServerLevel[world]', x=-1688.69, y=27.00, z=270.30] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:42.592] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230014, l='ServerLevel[world]', x=-1688.70, y=27.25, z=271.46] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:43.637] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/226463, l='ServerLevel[world]', x=-1687.89, y=27.00, z=270.51] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:47.123] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/224350, l='ServerLevel[world]', x=-1688.54, y=27.00, z=271.16] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:50.144] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230603, l='ServerLevel[world]', x=-1688.03, y=27.00, z=270.64] died: Debris Miner was slain by He_enry
+[22out.2023 01:06:54.175] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PiglinBrute['Debris Miner'/230218, l='ServerLevel[world]', x=-1687.46, y=27.00, z=270.50] died: Debris Miner was slain by He_enry
+[22out.2023 01:07:02.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry has made the advancement [Ice Bucket Challenge]
+[22out.2023 01:09:41.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,24.0,0.0
+[22out.2023 01:09:41.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,22.0,0.0
+[22out.2023 01:09:41.327] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,20.0,0.0
+[22out.2023 01:09:41.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,18.0,0.0
+[22out.2023 01:09:41.334] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,16.0,0.0
+[22out.2023 01:09:41.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,14.0,0.0
+[22out.2023 01:09:41.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lander (vehicle of just_ken) moved too quickly! 0.0,12.0,0.0
+[22out.2023 01:12:24.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has reached the goal [One Small Step]
+[22out.2023 01:19:50.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken has reached the goal [Secrets Beneath]
+[22out.2023 01:25:09.639] [Server thread/INFO] [explorerscompass/]: SearchWorkerManager c035d635: RandomSpreadSearchWorker starting with 10000 max radius, 100000 max samples
+[22out.2023 01:25:09.952] [Server thread/INFO] [explorerscompass/]: SearchWorkerManager c035d635: RandomSpreadSearchWorker succeeded with 2104 radius, 10 samples
+[22out.2023 01:29:51.508] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-2123, y=72, z=-203} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
+[22out.2023 01:29:51.508] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=-2123, y=72, z=-203}
+[22out.2023 01:29:51.516] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-2122, y=69, z=-202} but found not block entity block Block{minecraft:stone} at location
+[22out.2023 01:29:51.516] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-2122, y=69, z=-202}
+[22out.2023 01:29:51.516] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-2122, y=69, z=-203} but found not block entity block Block{minecraft:stone_slab}[type=bottom,waterlogged=false] at location
+[22out.2023 01:29:51.517] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_slab}[type=bottom,waterlogged=false] but failed at location BlockPos{x=-2122, y=69, z=-203}
+[22out.2023 01:29:54.931] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: He_enry moved wrongly!
+[22out.2023 01:34:12.234] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: just_ken lost connection: Disconnected
+[22out.2023 01:34:12.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: just_ken left the game
+[22out.2023 01:34:12.236] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f1a96447-38a9-39ac-9994-5fc554d8e9ef
+[22out.2023 01:34:16.040] [Server thread/ERROR] [noobanidus.mods.lootr.api.LootrAPI/]: Unable to fill loot barrel in ResourceKey[minecraft:dimension / minecraft:overworld] at BlockPos{x=30, y=72, z=48} as the loot table 'dungeons_arise:chests/illager_fortress_small' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
+[22out.2023 01:36:38.423] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PapelRasgado lost connection: Disconnected
+[22out.2023 01:36:38.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PapelRasgado left the game
+[22out.2023 01:36:38.425] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 57b4cf09-7d00-39c3-b844-d4004ab31cba
+[22out.2023 01:37:31.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[22out.2023 01:37:31.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teste<--[HERE]
+[22out.2023 01:38:13.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Server] teste
+[22out.2023 01:38:15.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Pressota> oi
+[22out.2023 01:38:21.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Server] thiago vai tomar no cu
+[22out.2023 01:40:46.471] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Pressota lost connection: Disconnected
+[22out.2023 01:40:46.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Pressota left the game
+[22out.2023 01:40:46.474] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 55ad2314-aa08-3156-bf44-f618e29e8ec0
+[22out.2023 01:42:29.267] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: He_enry lost connection: Disconnected
+[22out.2023 01:42:29.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: He_enry left the game
+[22out.2023 01:42:29.268] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for f8fb6a96-86c2-3bc5-9e7b-454c93c28aa5
+[22out.2023 01:49:18.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22out.2023 01:49:18.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22out.2023 01:49:18.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22out.2023 01:49:18.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22out.2023 01:49:18.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22out.2023 01:49:19.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mining_dimension:mining
+[22out.2023 01:49:19.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[22out.2023 01:49:19.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
+[22out.2023 01:49:19.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
+[22out.2023 01:49:19.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[22out.2023 01:49:19.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[22out.2023 01:49:19.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[22out.2023 01:49:19.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[22out.2023 01:49:19.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
+[22out.2023 01:49:19.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[22out.2023 01:49:19.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[22out.2023 01:49:19.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[22out.2023 01:49:19.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[22out.2023 01:49:19.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[22out.2023 01:49:19.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[22out.2023 01:49:19.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[22out.2023 01:49:19.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[22out.2023 01:49:19.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22out.2023 01:49:19.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[22out.2023 01:49:19.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_bumblezone:the_bumblezone
+[22out.2023 01:49:19.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[22out.2023 01:49:19.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22out.2023 01:49:19.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[22out.2023 01:49:19.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22out.2023 01:49:19.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[22out.2023 01:49:19.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[22out.2023 01:49:19.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
+[22out.2023 01:49:19.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
+[22out.2023 01:49:19.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[22out.2023 01:49:19.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[22out.2023 01:49:19.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[22out.2023 01:49:19.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[22out.2023 01:49:19.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[22out.2023 01:49:19.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[22out.2023 01:49:19.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[22out.2023 01:49:19.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[22out.2023 01:49:19.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[22out.2023 01:49:19.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[22out.2023 01:49:19.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[22out.2023 01:49:19.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[22out.2023 01:49:19.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[22out.2023 01:49:19.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22out.2023 01:49:19.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[22out.2023 01:49:19.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[22out.2023 01:49:19.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[22out.2023 01:49:19.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22out.2023 01:49:19.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[22out.2023 01:49:19.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22out.2023 01:49:21.339] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[22out.2023 01:49:21.348] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!

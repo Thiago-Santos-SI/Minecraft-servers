@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "57b4cf09-7d00-39c3-b844-d4004ab31cba",
+    "name": "PapelRasgado",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
