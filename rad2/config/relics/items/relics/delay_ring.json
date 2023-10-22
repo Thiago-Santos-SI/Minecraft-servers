@@ -1,8 +1,0 @@
-{
-  "stats": {
-    "useCooldown": 60,
-    "delayDuration": 10,
-    "damageMultiplier": 1.0,
-    "healMultiplier": 2.0
-  }
-}

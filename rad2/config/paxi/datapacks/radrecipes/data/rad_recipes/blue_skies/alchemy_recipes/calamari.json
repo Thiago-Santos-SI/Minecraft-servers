@@ -1,8 +1,0 @@
-{
-  "type": "blue_skies:transmute",
-  "override": false,
-  "items": [
-    "mysticalworld:raw_squid",
-    "simplefarming:raw_calamari"
-  ]
-}

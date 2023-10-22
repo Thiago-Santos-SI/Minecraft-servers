@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    { "id":"spartantwilight:katana_ironwood", "required": false },
-    { "id":"spartantwilight:katana_steeleaf", "required": false },
-    { "id":"spartantwilight:katana_fiery", "required": false },
-    { "id":"spartantwilight:katana_knightly", "required": false }
-	]
-}

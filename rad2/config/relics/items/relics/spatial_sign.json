@@ -1,9 +1,0 @@
-{
-  "stats": {
-    "timeBeforeActivation": 30,
-    "experiencePerSecond": 1
-  },
-  "durability": {
-    "maxDurability": 1
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "stats": {
-    "damageMultiplier": 1.5,
-    "healMultiplier": 1.25,
-    "igniteChance": 0.25,
-    "invulnerabilityTime": 10
-  }
-}

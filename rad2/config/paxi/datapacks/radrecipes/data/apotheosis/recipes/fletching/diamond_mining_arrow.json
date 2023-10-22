@@ -1,8 +1,0 @@
-{
-	"type": "apotheosis:fletching",
-	"conditions": [
-    {
-      "type": "forge:false"
-    }
-  ]
-}

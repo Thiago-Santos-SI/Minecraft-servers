@@ -1,9 +1,0 @@
-{
-	"replace": false,
-	"values": [
-    { "id":"feywild:autumn_stripped_log", "required": false },
-    { "id":"feywild:spring_stripped_log", "required": false },
-    { "id":"feywild:summer_stripped_log", "required": false },
-    { "id":"feywild:winter_stripped_log", "required": false }
-	]
-}
